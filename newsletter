@@ -1,0 +1,216 @@
+<div class="newsletter_banner text-center">
+    <h3>NEWSLETTER SIGN-UP</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <p>Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
+    
+    <div class="newsletter_page">
+    
+    
+    <form action="//halifaxshoppingcentre.us2.list-manage.com/subscribe/post-json?u=606e5e50d5c4e3e328b36adbe&amp;id=69aa212972&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
+         <!--mail chimp hidden inputs-->
+                
+                
+                <input title="advice newsletter" class="newletter-hidden" id="mce-FNAME" name="FNAME" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-LNAME" name="LNAME" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE4" name="MMERGE4" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="mce-MMERGE5" name="MMERGE5" type="hidden" />
+                <input title="giftcard newsletter" class="newletter-hidden" name="group[5][1]" id="mce-group[5]-5-0" type="hidden" />
+                <input title="contest newsletter" class="newletter-hidden" name="group[5][2]" id="mce-group[5]-5-1" type="hidden" />
+                <input title="sales newsletter" class="newletter-hidden" name="group[5][4]" id="mce-group[5]-5-2" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" name="group[5][8]" id="mce-group[5]-5-3" type="hidden" />
+                
+                
+                
+                <!--end mail chimp hidden inputs-->
+    </form>
+    
+    
+        <form id="newsletter_form">
+    
+            <div class="floater-left">
+                <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
+               <input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />
+               <input title="sales newsletter" class="newletter-hidden" id="fieldwkdiu_newsletter" name="cm-f-wkdiu" type="hidden" />
+                <input title="advice newsletter" class="newletter-hidden" id="fieldwkddl_newsletter" name="cm-f-wkddl" type="hidden" />
+                
+               
+                
+                
+                <input title="birthday newsletter" class="newletter-hidden" id="fieldjuqp_newsletter" name="cm-f-juqp" type="hidden" />
+                
+                
+                <label for="firstName_newsletter">First Name *</label> 
+                <br/>
+                <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
+                <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
+            </div>
+            <div class="floater-left">
+                <label for="lastName_newsletter">Last name *</label>
+                <br/>
+                <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
+            </div>
+            <div class="floater-left">
+                <label for="fieldEmail_newsletter">Email *</label> 
+                <br/>
+                <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-tylikj-tylikj" type="email" required />
+            </div>
+            <div style="clear:both;"></div>
+            
+            
+            <div class="floater-left">
+                <label for="fieldjhtyly">Birth Month</label> 
+                <br/>
+                <select class="month-newsletter"  id="fieldBirthday_newsletter" name="cm-f-jhtyly">
+                    <option default selected disabled>Select one</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>April</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>September</option>
+                    <option>October</option>
+                    <option>November</option>
+                    <option>December</option>
+                </select>
+                
+                 <div class="input-group birthday_input_group">
+                <ul>
+                    <li><label>Would you like to receive our birthday offers?</label><input id="birthdayCheck" type="checkbox" style="float:left"/></li>
+                </ul>
+                </div>
+            </div>
+    
+            <div class="input-group">Select the categories you would like to hear about:
+                <ul>
+                    <li><label for="giftcard_newsletter">Gift Card Offers</label><input title="giftcard" name="giftcard" id="giftcard_newsletter" type="checkbox" checked="checked" style="float:left"/></li>
+                    <li><label for="contest_newsletter">Contests</label><input title="contest" name="contest" id="contest_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                    <li><label for="sales_newsletter">Sales &amp; Events</label><input title="sales" name="sales" id="sales_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                    <li><label for="advice_newsletter">Fashion Advice</label><input title="advice" name="advice" id="advice_newsletter" type="checkbox"  checked="checked" style="float:left"/></li>
+                </ul>
+            </div>
+            
+            <p style="font-size: 13px;"><input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;"><label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The CORE Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the 
+            <a style="color:#581d37" target="_blank" href="/privacy_policy">Privacy Terms &amp; Conditions</a>.</label></p>
+            <div>     
+                <input class="newsletter_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
+            </div>
+        </form>
+    </div>
+</div>
+    <script type="text/javascript">
+        $(document).ready(function(e){
+            init(e);
+            show_content();
+        })
+    
+        
+        $("#newsletter_form").submit(function( e ) {
+        e.preventDefault();
+            if ($("#agree_newsletter_page").prop("checked") != true){
+                alert("Please agree to the receiving newsletter.");
+                $("#agree_newsletter_page").focus();
+            } else {
+                var firstName = $('#firstName_newsletter').val();
+                var lastName = $('#lastName_newsletter').val();
+                var name = firstName + " " + lastName;
+                $('#fieldName_newsletter.newletter-hidden').val(name);
+                
+                var giftcard = getCheckBoxValue('#giftcard_newsletter');
+                var contest = getCheckBoxValue('#contest_newsletter');
+                var sales = getCheckBoxValue('#sales_newsletter');
+                var advice = getCheckBoxValue('#advice_newsletter');
+                var birthday = getCheckBoxValue('#birthdayCheck');
+                $('#fieldwkdij_newsletter.newletter-hidden').val(giftcard);
+                $('#fieldwkdik_newsletter.newletter-hidden').val(contest);
+                $('#fieldwkdiu_newsletter.newletter-hidden').val(sales);
+                $('#fieldjuqp_newsletter.newletter-hidden').val(birthday);
+                $('#fieldwkddl_newsletter.newletter-hidden').val(advice);
+                visited = 100; 
+                $.cookie('visited', visited, { expires: 7 });
+                $.getJSON(
+                    "http://mobilefringe.createsend.com/t/d/s/tylikj/?callback=?",
+                  $("#newsletter_form").serialize(),
+                    function (data) {
+                        if (data.Status === 400) {
+                            alert("Please try again later.");
+                        } else { // 200
+                            console.log(data)
+                            submitToMailChimp();
+                        }
+                }); 
+                
+                
+                
+                
+                
+                
+                
+            }
+          
+        });
+        
+        function submitToMailChimp(){
+            var firstName = $('#firstName_newsletter').val();
+            var lastName = $('#lastName_newsletter').val();
+            var giftcard = getCheckBoxValue('#giftcard_newsletter');
+            var contest = getCheckBoxValue('#contest_newsletter');
+            var sales = getCheckBoxValue('#sales_newsletter');
+            var advice = getCheckBoxValue('#advice_newsletter');
+            var birthday = getCheckBoxValue('#birthdayCheck');
+            
+            $("#mce-FNAME").val(firstName)
+                $("#mce-LNAME").val(lastName)
+                $("#mce-EMAIL").val($('#fieldEmail_newsletter').val())
+                $("#mce-MMERGE4").val($('#fieldBirthday_newsletter').val()) 
+                $("#mce-MMERGE5").val($('#birthdayCheck').val()) 
+                $("#mce-group[5]-5-0").val(giftcard);
+                $("#mce-group[5]-5-1").val(contest);
+                $("#mce-group[5]-5-2").val(sales);
+                $("#mce-group[5]-5-3").val(advice);
+                
+    
+                
+                
+                $.ajax({
+                    type: $("#mc-embedded-subscribe-form").attr('method'),
+                    url: $("#mc-embedded-subscribe-form").attr('action'),
+                    data: $("#mc-embedded-subscribe-form").serialize(),
+                    cache       : false,
+                    dataType    : 'json',
+                    contentType: "application/json; charset=utf-8",
+                    error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+                    success     : function(data) {
+                        if (data.result != "success") {
+                            window.location.href="/thank_you"
+                        } else {
+                            
+                            window.location.href="/thank_you"
+                        }
+                    }
+                })
+        }
+     
+        function getCheckBoxValue(checkbox){
+            if($(checkbox).prop('checked')){
+                return "1";
+            }else {
+                return "0";
+            }
+        }
+        $(function() {
+            var location = window.location.toString();
+            if (location.indexOf("s=1") != -1) {
+                alert("You least form request has been submitted.")
+            } else if (location.indexOf("s=0") != -1) {
+                alert("Please try to submit the form later.")
+            }
+        });
+    </script>
+    
