@@ -83,7 +83,7 @@
 						<li><a href="/promotions">Promotions</a></li>
 						<li><a href="/events">Events</a></li>
 						<li><a href="/development">Development</a></li>
-						<li class="contest_link"><a href="/contests">Contests</a></li>
+						<li><a href="/contests">Contests</a></li>
 						
 					</ul>
                 </li>
