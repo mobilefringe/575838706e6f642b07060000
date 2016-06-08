@@ -47,8 +47,8 @@
     <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/all.json');
-        setSocialEndPoint('http://halifaxcentre.mallmaverick.com/api/v2/halifaxcentre/social.json')
+        setEndPoint('http://coreshopping.ca/api/v2/core/all.json');
+        setSocialEndPoint('http://coreshopping.ca/api/v2/core/social.json')
     </script>
 </head>
 
