@@ -105,7 +105,7 @@ a{
         left: 0;
         width: 100%;
         height: 100%;
-        background: #BB9B6E;
+        background: #ce0c20;
         z-index: -1;
         opacity: 0;
         -webkit-transform: scale3d(0.7, 1, 1);
@@ -658,7 +658,7 @@ h4{
     padding: 14px 0px;
     border: 0;
     &:hover, &:focus{
-        color: black;
+        color: #fff;
         text-decoration: none;
         
         
