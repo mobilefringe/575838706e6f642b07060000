@@ -8,7 +8,7 @@
     <div class="newsletter_page">
         <form id="newsletter_form" action="http://mobilefringe.createsend.com/t/d/s/ykddht/" method="post">
             <div class="floater-left">
-                <label for="cm-name">First Name *</label> 
+                <label for="cm-name">Name *</label> 
                 <br/>
                 <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
             </div>
