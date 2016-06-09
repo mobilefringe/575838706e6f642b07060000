@@ -48,7 +48,7 @@
                 <div class="hidden_phone social_box text-center" id="social_fb">
                     <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
-                    <p>
+                    <p> 
                         <a  class="social_link_blank" href="https://www.facebook.com/COREshopping/" target="_blank">Facebook/ COREshoppingcentre</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
