@@ -39,7 +39,7 @@
     
         
         $("#newsletter_form").submit(function( e ) {
-        e.preventDefault();
+            e.preventDefault();
             if ($("#agree_newsletter_page").prop("checked") != true){
                 alert("Please agree to the receiving newsletter.");
                 $("#agree_newsletter_page").focus();
