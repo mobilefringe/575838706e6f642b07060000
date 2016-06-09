@@ -10,13 +10,8 @@
             <div class="floater-left">
                 <label for="firstName_newsletter">First Name *</label> 
                 <br/>
-                <input class="firstname-newsletter" id="firstName_newsletter" name="firstName" type="text" required />
-                <input title="fullname newsletter" class="newletter-hidden" id="fieldName_newsletter" name="cm-name" type="hidden" />
-            </div>
-            <div class="floater-left">
-                <label for="lastName_newsletter">Last name *</label>
-                <br/>
-                <input class="lastname-newsletter" id="lastName_newsletter" name="lastName" type="text" required />
+                <input class="firstname-newsletter" id="firstName_newsletter" name="name" type="text" required />
+                <input title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" type="hidden" />
             </div>
             <div class="floater-left">
                 <label for="fieldEmail_newsletter">Email *</label> 
