@@ -11,7 +11,7 @@
                 <label for="firstName_newsletter">First Name *</label> 
                 <br/>
                 <input class="firstname-newsletter" id="firstName_newsletter" name="name" type="text" required />
-                <input title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" type="hidden" />
+                <input title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
             </div>
             <div class="floater-left">
                 <label for="fieldEmail_newsletter">Email *</label> 
