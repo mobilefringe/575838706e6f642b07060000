@@ -48,6 +48,7 @@
     
     <script>
         setEndPoint('http://coreshopping.ca/api/v2/core/all.json');
+        setSocialEndPoint('http://coreshopping.ca/api/v2/core/social.json')
     </script>
 </head>
 
