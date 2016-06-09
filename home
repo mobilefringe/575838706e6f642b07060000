@@ -32,16 +32,9 @@
                     <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/undefined/3398609_Website_470x470_2.jpg" class="hoverer" alt="directions">
                 </div>
                 <div>    
-                    <a href="hhttps://www.facebook.com/COREshopping/" target="_blank" class="show_phone">
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/1464191314000/hsc_facebook-1.jpg" alt="fb">
-                </a>
-                <div class="hidden_phone social_box text-center" id="social_fb">
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
-                    <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
-                    <p> 
-                        <a  class="social_link_blank" href="https://www.facebook.com/COREshopping/" target="_blank">Facebook/ COREshoppingcentre</a> <br />
-                        <span id="latest_fb_date"></span>    
-                    </p>
+                    <a href="/map">
+                        <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1463769546000/center_map.png" class="" alt="map">
+                    </a>
                 </div>
             </div>
             
