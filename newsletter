@@ -12,6 +12,7 @@
                 <br/>
                 <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
             </div>
+            <br />
             <div class="floater-left">
                 <label for="fieldEmail_newsletter">Email *</label> 
                 <br/>
