@@ -5,11 +5,8 @@
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <p>Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
-    
     <div class="newsletter_page">
-
         <form id="newsletter_form">
-    
             <div class="floater-left">
                 <input title="giftcard newsletter" class="newletter-hidden" id="fieldwkdij_newsletter" name="cm-f-wkdij" type="hidden" />
                <input title="contest newsletter" class="newletter-hidden" id="fieldwkdik_newsletter" name="cm-f-wkdik" type="hidden" />
