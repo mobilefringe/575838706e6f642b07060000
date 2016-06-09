@@ -124,7 +124,7 @@ a{
 
 .social_box{
     padding:22px 30px;
-    background: #989898;
+    background: #e7142a;
     height:235px;
     width:235px;
     display:inline-block;
@@ -143,7 +143,7 @@ a{
     height:235px;
     width:235px;
     display:block;
-    background: #606060;
+    background: #e7142a;
     position:relative;
     &:hover{
         color: #fff;
