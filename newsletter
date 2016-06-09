@@ -52,7 +52,7 @@
                             alert("Please try again later.");
                         } else { // 200
                             alert("Thank you for subscribing to our newsletter.");
-                            $('#newsletter_form').trigger('reset')
+                            $("#newsletter_box").hide();
                         }
                 });
             }
