@@ -1138,11 +1138,11 @@ h4{
     /* Check for Holiday Ho: */
     font-style: italic;
     font-size: 14px;
-    color: #DCBB8D;
+    color: #e7142a;
     font-family:georgia;
     margin-bottom:10px;
     &:hover{
-        color: #DCBB8D;;
+        color: #e7142a;
     }
 }
 
