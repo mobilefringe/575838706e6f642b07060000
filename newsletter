@@ -49,41 +49,7 @@
                 alert("Please agree to the receiving newsletter.");
                 $("#agree_newsletter_page").focus();
             } else {
-                var firstName = $('#firstName_newsletter').val();
-                var lastName = $('#lastName_newsletter').val();
-                var name = firstName + " " + lastName;
-                $('#fieldName_newsletter.newletter-hidden').val(name);
-                
-                var giftcard = getCheckBoxValue('#giftcard_newsletter');
-                var contest = getCheckBoxValue('#contest_newsletter');
-                var sales = getCheckBoxValue('#sales_newsletter');
-                var advice = getCheckBoxValue('#advice_newsletter');
-                var birthday = getCheckBoxValue('#birthdayCheck');
-                $('#fieldwkdij_newsletter.newletter-hidden').val(giftcard);
-                $('#fieldwkdik_newsletter.newletter-hidden').val(contest);
-                $('#fieldwkdiu_newsletter.newletter-hidden').val(sales);
-                $('#fieldjuqp_newsletter.newletter-hidden').val(birthday);
-                $('#fieldwkddl_newsletter.newletter-hidden').val(advice);
-                visited = 100; 
-                $.cookie('visited', visited, { expires: 7 });
-                $.getJSON(
-                    "http://mobilefringe.createsend.com/t/d/s/tylikj/?callback=?",
-                  $("#newsletter_form").serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert("Please try again later.");
-                        } else { // 200
-                            console.log(data)
-                            submitToMailChimp();
-                        }
-                }); 
-                
-                
-                
-                
-                
-                
-                
+            
             }
           
         });
