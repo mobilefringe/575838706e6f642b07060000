@@ -7,22 +7,7 @@
     <p>Be the first to know! Sign up to receive the latest Halifax Shopping Centre updates including contests, events and promotions.</p>
     
     <div class="newsletter_page">
-    
-    
-    <form action="http://mobilefringe.createsend.com/t/d/s/ykddht/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
-         <!--mail chimp hidden inputs-->
-                
-                
-                <input title="advice newsletter" class="newletter-hidden" id="mce-FNAME" name="FNAME" type="hidden" />
-                <input title="advice newsletter" class="newletter-hidden" id="mce-LNAME" name="LNAME" type="hidden" />
-                <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
-                
-                
-                
-                <!--end mail chimp hidden inputs-->
-    </form>
-    
-    
+
         <form id="newsletter_form">
     
             <div class="floater-left">
