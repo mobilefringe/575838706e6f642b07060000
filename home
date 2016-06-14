@@ -114,7 +114,7 @@
         $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDate())
         
         
-        if(latest_fb_post.text.length > 100){
+        if(latest_fb_post.text.length > 90){
             $('#latest_fb').text(latest_fb_post.text.substr(0,90) + "...")
         }
         else{
