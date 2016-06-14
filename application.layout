@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--Update each web pages SEO to set values for {{meta_title}}, {{meta_description}}, {{meta_keywords}} -->
     <meta charset="utf-8">
     <meta property="og:title" content="{{meta_title}}">
     <meta property="og:description" content="{{meta_description}}">
