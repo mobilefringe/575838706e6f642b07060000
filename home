@@ -115,7 +115,7 @@
         
         
         if(latest_fb_post.text.length > 100){
-            $('#latest_fb').text(latest_fb_post.text.substr(0,100) + "...")
+            $('#latest_fb').text(latest_fb_post.text.substr(0,90) + "...")
         }
         else{
             $('#latest_fb').text(latest_fb_post.text)
