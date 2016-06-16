@@ -41,7 +41,7 @@
                             <div class="col-md-8">
                                 <h2 class="promo_list_name"><a href="/promotions/{{slug}}">{{title}}</a></h2>
                                 <p>
-                                    <span class="underline promo_store">{{store_name}}</span>
+                                    <span class="underline promo_store">{{author}}</span>
                                     <span class="promo_dates">{{dates}}</span>
                                 </p>
                                 <div class="promo_list_desc">{{description_short}}</div>
