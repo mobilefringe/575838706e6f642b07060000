@@ -154,6 +154,7 @@
                     regions[val.svgmap_region] = obj
                 }
             });
+            
             if (store_details.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                 load_map(regions, store_details);
             }
