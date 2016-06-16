@@ -59,6 +59,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
+            var posts = getAllPublishedPosts();
             var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
             renderPosts("#posts_container", "#posts_template", published_posts);
             show_content();
