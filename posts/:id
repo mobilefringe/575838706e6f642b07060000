@@ -1,11 +1,11 @@
 <div class="main_banner text-center">
-    <h3>PROMOTIONS</h3>
+    <h3>Blog</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-3">
-            <h5><a href="/promotions">PROMOTIONS</a></h5>
+            <h5><a href="/events">EVENTS</a></h5>
         </div>
         <div class="col-md-3 text-center">
             <!--<h5><a href="/development">DEVELOPMENT</a></h5>-->
@@ -14,63 +14,73 @@
             <h5 class="contest_link"><a href="/contests">CONTEST</a></h5>
         </div>
         <div class="col-md-3 text-right">
-            <h5  class="news_link"><a href="/news">NEWS</a></h5>
+            <h5 class="news_link"><a href="/news">NEWS</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
-        <a href="/promotions">BACK TO PROMOTIONS</a>
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/events">Events</option>
+            <option class="contest_link" value="/contests">Contest</option>
+            <option class="news_link" value="/news">News</option>
+        </select>
     </h5>
 </div>
-<div class="content_container main_container">
+ <div class="content_container main_container">
     <div class="margin_25_across">
-        <div class="row" id="promo_details_container">
-            <script id="promo_details_template" type="x-tmpl-mustache/text">
-                <div class="col-md-8">
-                    <img src="{{image_url}}" alt="Store Logo" class="details_image" />
-                    <h2 class="promo_list_name">{{name}}</h2>
-                    <p class="promo_dates underline">{{dates}}</p>
-                    <p class="show_phone"><span class="promo_store ">{{store_name}} </span><a href="/stores/{{store_slug}}" class="read_more">View Store Info</a></p>
-                    <p class="show_phone mobile_share_container">
-                        <a href="https://www.facebook.com/sharer.php?u=http://halifaxshoppingcentre.com/promotions/{{slug}}" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?url=http://halifaxshoppingcentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
-                            <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1461347344000/tweet.png" class="" alt="tweet">
-                        </a>
-                    </p>
-                    <div class="details_desc">{{{rich_description}}}</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="posts_container">
+                    <script id="posts_template" type="x-tmpl-mustache/text">
+                        <div class="row promo_item hidden_now" id="show_{{counter}}">
+                            <div class="col-md-4">
+                                <div class="cropped_image">
+                                    <img src="{{image_url}}" alt="{{name}}" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="promo_list_name"><a href="/{{slug}}">{{title}}</a></h2>
+                                <p>
+                                    <span class="underline promo_store" style="{{author_exists}}">{{author}}</span>
+                                    <span class="promo_dates">{{published_on}}</span>
+                                </p>
+                                <div class="promo_list_desc">{{description_short}}</div>
+                                <a class="read_more" href="/{{slug}}">Read More</a>
+                            </div>
+                        </div>
+                    </script>
                 </div>
-                <div class="col-md-4 hidden_phone">
-                    <img src="{{store_image}}" alt="Store Logo" class="store_logo" />
-                    <div class="side_stores">
-                        <a class="animated_btn" href="tel:{{phone}}" style="{{phone_show}}">Phone: {{phone}}</a>
-                        <a class="animated_btn" href="/stores/{{store_slug}}" style="{{store_show}}">Visit Store Details</a>
-                        <a class="animated_btn" href="http://{{website}}" target="_blank" style="{{show}}">Visit Website</a>
-                    </div>
-                    <div class="share_container">
-                        <a href="https://www.facebook.com/sharer.php?u=http://halifaxshoppingcentre.com/promotions/{{slug}}" target="_blank">
-                            <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
-                        </a>
-                        <a href="https://twitter.com/intent/tweet?url=http://halifaxshoppingcentre.com/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
-                            <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1461347344000/tweet.png" class="" alt="tweet">
-                        </a>
-                    </div>
-                </div>
-                
-            </script>
+                <input type="hidden" value="1" id="num_loaded" />
+                <p class="text-center hidden_now" id ="all_loaded">NO MORE POSTS</p>
+                <p class="text-center" id="loaded_posts">
+                    <a href="#" class="red" id="load_more_posts">
+                        LOAD MORE POSTS
+                        <br/>
+                        <i class="fa fa-long-arrow-down"></i>    
+                    </a>
+                </p>
+            </div>
         </div>
     </div>
 </div>
+
 <script>
     $(document).ready(function(e){
         init(e);
-        function renderAll(){
-            var pathArray = window.location.pathname.split( '/' );
-            var slug = pathArray[pathArray.length-1];
-            promo_details = getPromotionDetailsBySlug(slug);
-            renderPromoDetails('#promo_details_container', '#promo_details_template', promo_details, "Halifax")
+        function renderAll (){
+            var posts = getAllPublishedPosts();
+            var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
+            renderPosts("#posts_container", "#posts_template", published_posts);
             show_content();
+            load_more(1);
+            
+            $('#load_more_posts').click(function(e){
+                var i = $('#num_loaded').val();
+                load_more(i);
+                e.preventDefault();
+            });
         }
-        loadMallDataCached(renderAll); 
+        
+		loadMallDataCached(renderAll); 
     })
 </script>
