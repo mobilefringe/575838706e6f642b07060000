@@ -162,7 +162,7 @@
     function load_map(reg, store_details){
         this_region = {};
         this_region = store_details.svgmap_region;
-        alert(this_region)
+        console.log(this_region)
         if (this_region != null){
             map = $('#mapsvg_store_detail').mapSvg({
                 source: getSVGMapURL(),
