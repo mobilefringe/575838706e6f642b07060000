@@ -633,7 +633,7 @@ function renderPosts(container, template, collection){
         }
         
         if (val.author.length == 0){
-            val.author_exists = "displa:none"
+            val.author_exists = "display:none"
         }
         else{
             val.author_exists = "display:inline"
