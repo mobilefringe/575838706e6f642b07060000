@@ -60,20 +60,7 @@
         init(e);
         function renderAll (){
             var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
-            var published_promos = [];
-            $.each( promotions , function( key, val ){
-                today = new Date();
-                webDate = new Date(val.show_on_web_date)
-                if (today >= webDate) {
-                    published_promos.push(val)
-                } 
-            });
-            if(published_promos.length > 0){
-                renderPromotions("#posts_container","#posts_template", published_promos, "Halifax");
-            }
-            else{
-                $('#no_promos').show()
-            }
+            renderPosts("#posts_container", "#posts_template", published_posts);
             show_content();
         }
         
