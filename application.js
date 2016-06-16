@@ -635,6 +635,9 @@ function renderPosts(container, template, collection){
         if (val.author.length == 0){
             val.author_exists = "displa:none"
         }
+        else{
+            val.author_exists = "display:inline"
+        }
         val.description_short = val.description_short.replace("&amp;", "&");
         val.slug = "posts/" +val.slug;
         
