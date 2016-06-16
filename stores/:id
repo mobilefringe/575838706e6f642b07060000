@@ -183,6 +183,7 @@
             drop_pin(store_details.svgmap_region, map);
         }
         else{
+            alert("hello")
             map = $('#mapsvg_store_detail').mapSvg({
                 source: getSVGMapURL(),
                 colors: {stroke: '#fff', selected: "#DCBB8D", hover: "#a6a6a6"},
