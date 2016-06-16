@@ -32,7 +32,7 @@
             <div class="col-md-12">
                 <div id="posts_container">
                     <script id="posts_template" type="x-tmpl-mustache/text">
-                        <div class="row promo_item hidden_now" id="show_{{counter}}">
+                        <div class="row promo_item">
                             <div class="col-md-4">
                                 <div class="cropped_image">
                                     <img src="{{image_url}}" alt="{{name}}" />
