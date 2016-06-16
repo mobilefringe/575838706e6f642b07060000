@@ -58,17 +58,11 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var posts = getAllPublishedPosts();
-            var published_posts = posts.sortBy(function(o){ return new Date(o.publish_date) }).reverse();
-            renderPosts("#posts_container", "#posts_template", published_posts);
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var post = getPublishedPostDetailsBySlug(slug);
+            renderPostDetails("#post_container", "#post_template", post);
             show_content();
-            load_more(1);
-            
-            $('#load_more_posts').click(function(e){
-                var i = $('#num_loaded').val();
-                load_more(i);
-                e.preventDefault();
-            });
         }
         
 		loadMallDataCached(renderAll); 
