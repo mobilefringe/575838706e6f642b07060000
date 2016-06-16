@@ -44,7 +44,7 @@
                                     <span class="underline promo_store" style="{{author_exists}}">{{author}}</span>
                                     <span class="promo_dates">{{published_on}}</span>
                                 </p>
-                                <div class="promo_list_desc">{{description}}</div>
+                                <div class="promo_list_desc">{{{rich_description}}}</div>
                             </div>
                         </div>
                     </script>
