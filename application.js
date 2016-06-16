@@ -621,7 +621,7 @@ function renderPosts(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
         if (val.image_url.indexOf('missing.png') > -1) {
-            val.post_image = "http://assets.codecloudapp.com/sites/56056be06e6f641a1d020000/image/png/1446826281000/stc-logo-holiday-360 copy.png";
+            val.post_image = "http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1461352407000/HallifaxLogo.png";
         } else {
             val.post_image = val.image_url;
         }
@@ -633,14 +633,7 @@ function renderPosts(container, template, collection){
         }
         val.description_short = val.description_short.replace("&amp;", "&");
         val.slug = "posts/" +val.slug;
-        var lb = getBlogDataBySlug("stc-lookbook");
-        var contest = getBlogDataBySlug("stc-contest");
-        var out_blog = lb.posts.concat(contest.posts);
-        var id = val.id;
-        var result = $.grep(out_blog, function(e){ return e.id == id; });
-        if(result.length > 0){
-            val.slug = val.video_link;
-        }
+        
         val.counter = counter;
         var date_blog = new Date(val.publish_date);
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
