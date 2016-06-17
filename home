@@ -32,7 +32,7 @@
                     <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/undefined/3398609_Website_470x470_2.jpg" class="hoverer" alt="directions">
                 </div>
                 <div>    
-                    <a href="https://www.instagram.com/coreshopping/" target="_blank">
+                    <a href="https://www.instagram.com/coreshopping/" target="_blank" class="position_relative">
                         <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1466198895000/instagram.png" class="" alt="map">
                         <p class="center_me">Follow us on Instagram</a>
                     </a>
