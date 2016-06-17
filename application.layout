@@ -93,7 +93,7 @@
 						<img class="menu_icon minus_icon" src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1461179572000/close_submenu.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-						<li><a href="/blogs">Blog</a></li>
+						<li><a href="/blog">Blog</a></li>
 						
 					</ul>
                 </li>
