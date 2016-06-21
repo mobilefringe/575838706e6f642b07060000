@@ -33,8 +33,8 @@
                 </div>
                 <div>    
                     <a href="https://www.instagram.com/coreshopping/" target="_blank" class="block position_relative">
-                        <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1466198895000/instagram.png" class="" alt="map">
-                        <span class="center_me ">Follow us on Instagram</span>
+                        <img class="hidden_phone" src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1466198895000/instagram.png" class="" alt="map">
+                        <span class="center_me hidden_phone">Follow us on Instagram</span>
                     </a>
                 </div>
             </div>
