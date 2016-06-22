@@ -11,7 +11,7 @@
             <h5><a href="/events">EVENTS</a></h5>
         </div>
         <div class="col-md-3 text-center">
-            <h5 class="active_heading">CONTEST</h5>
+            <h5 class="active_heading">CONTESTS</h5>
         </div>
         <div class="col-md-3 text-right">
             <h5 class="contest_link"><a href="/development">DEVELOPMENT</a></h5>
