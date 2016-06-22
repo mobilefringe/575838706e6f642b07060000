@@ -144,7 +144,7 @@
                         Today's Hours:
                         <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
+                                <span class="hours_today">{%raw%}{{day}}{%endraw%}</span>
                             </script>
                         </span>
                     </p>
