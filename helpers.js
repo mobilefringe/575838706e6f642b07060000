@@ -314,3 +314,8 @@ function sortByDate(a, b){
 
     return ((aDate > bDate) ? -1 : ((aDate < bDate) ? 1 : 0));
 }
+
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
