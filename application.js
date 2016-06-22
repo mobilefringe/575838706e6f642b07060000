@@ -70,7 +70,7 @@ function renderStoreDetails(container, template, collection, slug){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        
+        val.name = capitalizeFirstLetter(val.name)
         if ((val.store_front_url).indexOf('missing.png') > -1){
             val.alt_store_front_url = "http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/undefined/corelogo.png";
         } else {
