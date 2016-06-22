@@ -1,7 +1,7 @@
 <div class="hero_banner text-center">
     <h3>Find yourself downtown</h3>
     <br />
-    <p>CALGARY'S ONLY DOWNTOWN SHOPPING CENTRE</p>
+    <p class="futura">CALGARY'S ONLY DOWNTOWN SHOPPING CENTRE</p>
     <a class="animated_btn" href="/stores">VISIT OUR STORES</a>
 </div>
 <div class="content_container main_container">
