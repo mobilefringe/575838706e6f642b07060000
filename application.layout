@@ -160,7 +160,7 @@
                     <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
                 </div>
                 <div class="col-xs-12 show_phone home_hours_phone">
-                    <p class="hours_home"><span class="hours_dot"></span> Today's Hours: 
+                    <p class="hours_home futura"><span class="hours_dot"></span> Today's Hours: 
                         <span id="home_hours_container3">
                             <script id="home_hours_template3" type="x-tmpl-mustache/text">
                                 <span class="hours_today">{%raw%}{{day}}{%endraw%}</span><br />
