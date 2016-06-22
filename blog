@@ -5,7 +5,7 @@
 <div class="store_list_head main_container">
     <div class="row">
         <div class="col-md-3">
-            <h5 class="active_heading">BLOG</h5>
+            <h5 class="active_heading mobile_underline">BLOG</h5>
         </div>
     </div>
     
