@@ -193,25 +193,25 @@ function drop_pin(id, map){
 function get_day(id){
     switch(id) {
         case 0:
-            return ("Sun");
+            return ("Sunday");
             break;
         case 1:
-            return ("Mon");
+            return ("Monday");
             break;
         case 2:
-            return ("Tue");
+            return ("Tuesday");
             break;
         case 3:
-            return ("Wed");
+            return ("Wednesday");
             break;
         case 4:
-            return ("Thu");
+            return ("Thursday");
             break;
         case 5:
-            return ("Fri");
+            return ("Friday");
             break;
         case 6:
-            return ("Sat");
+            return ("Saturday");
             break;
     }
 }
