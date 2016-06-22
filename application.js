@@ -69,7 +69,6 @@ function renderStoreDetails(container, template, collection, slug){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
-    console.log(collection)
     $.each( item_list , function( key, val ) {
         
         if ((val.store_front_url).indexOf('missing.png') > -1){
