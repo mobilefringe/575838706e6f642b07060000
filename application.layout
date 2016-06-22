@@ -155,7 +155,7 @@
                         <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/undefined/logo2.png" class="main_logo " alt="main_logo">
                     </a>
                 </div>
-                <div class="col-md-4 col-xs-4 text-right position_relative">
+                <div class="col-md-5 col-xs-4 text-right position_relative">
                     <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
                 </div>
                 <div class="col-xs-12 show_phone home_hours_phone">
