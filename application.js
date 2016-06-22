@@ -105,7 +105,7 @@ function renderStoreDetails(container, template, collection, slug){
         else{
             val.facebook_show = "display:none";
         }
-        val.name = capitalizeFirstLetter(val.name)
+        
         val.map_x_coordinate = val.x_coordinate - 19;
         val.map_y_coordinate = val.y_coordinate - 58;
         var rendered = Mustache.render(template_html,val);
