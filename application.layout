@@ -160,7 +160,14 @@
                     <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
                 </div>
                 <div class="col-xs-12 show_phone home_hours_phone">
-                    <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
+                    <p class="hours_home"><span class="hours_dot"></span> Today's Hours: 
+                        <span id="home_hours_container">
+                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                <span class="hours_today">{%raw%}{{day}}{%endraw%}</span><br />
+                                <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
+                            </script>
+                        </span>
+                    </p>
                     <a class="holiday_hours_home" href="/hours">SEE MORE HOURS</a></p>
                 </div>
             </div>
