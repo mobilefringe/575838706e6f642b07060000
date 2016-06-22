@@ -602,7 +602,7 @@ function renderHomeHours(container, template, collection){
             var close_time = new Date (val.close_time);
             val.open_time = convert_hour(open_time);
             val.close_time = convert_hour(close_time);    
-            val.h = get_day(d.getDay()) + " " + val.open_time+ " - " + val.close_time;
+            val.h = get_day(d.getDay()) + "<br />" + val.open_time+ " - " + val.close_time;
         } else {
             val.h = "Closed";
         }
