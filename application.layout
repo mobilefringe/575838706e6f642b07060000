@@ -148,7 +148,7 @@
                             </script>
                         </span>
                     </p>
-                    <a href="/hours" class="holiday_hours_home soft_hidden_phone">Check for Holiday Hours</a>
+                    <a href="/hours" class="holiday_hours_home soft_hidden_phone">SEE MORE HOURS</a>
                 </div>
                 <div class="col-md-2 padding_0 col-xs-4 text-center">
                     <a href="/">
@@ -160,7 +160,7 @@
                 </div>
                 <div class="col-xs-12 show_phone home_hours_phone">
                     <p class="hours_home"><span class="hours_dot"></span> Today's Hours: Thu 09:30am - 08:00pm</p>
-                    <a class="holiday_hours_home" href="/hours">Check for Holiday Hours</a></p>
+                    <a class="holiday_hours_home" href="/hours">SEE MORE HOURS</a></p>
                 </div>
             </div>
             <div class="hedaer_divider"></div>
