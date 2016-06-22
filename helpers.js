@@ -245,40 +245,40 @@ function get_month (id){
     var month = "";
     switch(id) {
         case 0:
-            month = "Jan";
+            month = "January";
             break;
         case 1:
-            month = "Feb";
+            month = "February";
             break;
         case 2:
-            month = "Mar";
+            month = "March";
             break;
         case 3:
-            month = "Apr";
+            month = "April";
             break;
         case 4:
             month = "May";
             break;
         case 5:
-            month = "Jun";
+            month = "June";
             break;
         case 6:
-            month = "Jul";
+            month = "July";
             break;
         case 7:
-            month = "Aug";
+            month = "August";
             break;
         case 8:
-            month = "Sep";
+            month = "September";
             break;
         case 9:
-            month = "Oct";
+            month = "October";
             break;
         case 10:
-            month = "Nov";
+            month = "November";
             break;
         case 11:
-            month = "Dec";
+            month = "December";
             break;
             
     }
