@@ -47,9 +47,7 @@
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/undefined/3398609_Website_470x470_4.jpg" class="hoverer" alt="contact us">
-                </div>
+                <div id="feature_4" class="position_relative"></div>
             </div>
             
             <div class="feature_item">
@@ -68,9 +66,7 @@
                         <p class="hours_link">See More Hours</p>
                     </a>
                 </div>
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/1466608207000/patio.jpg" class="hoverer" alt="dining">
-                </div>
+                <div id="feature_5" class="position_relative"></div>
             </div>
             <div class="clearfix"></div>
         </div>
