@@ -703,3 +703,11 @@ function renderPostDetails(container, template, collection){
     
     $(container).html(item_rendered.join(''));
 }
+
+
+function renderFeatureItems(){
+    var items = getFeatureList();
+    $.each(items, function(i, val){
+        $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
+    })
+}
