@@ -53,7 +53,7 @@
        
         ga('create', 'UA-50587834-2', 'auto');
         ga('send', 'pageview');
-    var mall_name = "Halifax Shopping Centre"
+    var mall_name = "Core Shopping Centre"
    </script>
     
     <script>
