@@ -24,9 +24,7 @@
                         </p>
                     </div>
                 </div>
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/undefined/3398609_Website_470x470_2.jpg" class="hoverer" alt="directions">
-                </div>
+                <div id="feature_2" class="position_relative"></div>
                 <div>    
                     <a href="https://www.instagram.com/coreshopping/" target="_blank" class="block position_relative">
                         <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/1466535742000/social_instagram.jpg" class="show_phone" alt="">
