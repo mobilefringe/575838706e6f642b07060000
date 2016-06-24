@@ -35,9 +35,7 @@
             </div>
             
             <div class="feature_item">
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/undefined/3398609_Website_470x470_3.jpg" class="hoverer" alt="">
-                </div>
+                <div id="feature_3" class="position_relative"></div>
                 <a href="https://www.facebook.com/COREshopping/" target="_blank" class="show_phone">
                     <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/1466535551000/social_facebook-1.jpg" alt="fb">
                 </a>
