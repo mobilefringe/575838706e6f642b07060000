@@ -150,9 +150,9 @@ function renderPromotions(container, template, collection, centre){
             val.description_short = val.description
         }
         
-        var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        start = new Date (val.start_date + "T04:00:00Z");
-        end = new Date (val.end_date + "T04:00:00Z");
+        var show_date = new Date (val.show_on_web_date + "T07:00:00Z");
+        start = new Date (val.start_date + "T07:00:00Z");
+        end = new Date (val.end_date + "T07:00:00Z");
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -212,9 +212,9 @@ function renderPromoDetails(container, template, collection, centre){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        start = new Date (val.start_date + "T04:00:00Z");
-        end = new Date (val.end_date + "T04:00:00Z");
+        var show_date = new Date (val.show_on_web_date + "T07:00:00Z");
+        start = new Date (val.start_date + "T07:00:00Z");
+        end = new Date (val.end_date + "T07:00:00Z");
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -261,9 +261,9 @@ function renderEvents(container, template, collection, centre){
             val.event_image_url_abs="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        start = new Date (val.start_date + "T04:00:00Z");
-        end = new Date (val.end_date + "T04:00:00Z");
+        var show_date = new Date (val.show_on_web_date + "T07:00:00Z");
+        start = new Date (val.start_date + "T07:00:00Z");
+        end = new Date (val.end_date + "T07:00:00Z");
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -322,9 +322,9 @@ function renderEventDetails(container, template, collection, mall_name){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T04:00:00Z");
-        start = new Date (val.start_date + "T04:00:00Z");
-        end = new Date (val.end_date + "T04:00:00Z");
+        var show_date = new Date (val.show_on_web_date + "T07:00:00Z");
+        start = new Date (val.start_date + "T07:00:00Z");
+        end = new Date (val.end_date + "T07:00:00Z");
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -359,7 +359,7 @@ function renderJobs(container, template, collection){
             val.description_short = val.description;
         }
         
-        var show_date = new Date (val.start_date + "T04:00:00Z");
+        var show_date = new Date (val.start_date + "T07:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
         var rendered = Mustache.render(template_html,val);
@@ -410,7 +410,7 @@ function renderJobDetails(container, template, collection, mall_name){
             val.store_image = "http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/undefined/corelogo.png";
         }
         
-        var show_date = new Date (val.start_date + "T04:00:00Z");
+        var show_date = new Date (val.start_date + "T07:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
     
         var rendered = Mustache.render(template_html,val);
