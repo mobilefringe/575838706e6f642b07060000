@@ -8,12 +8,8 @@
     <div class="feature_items_box mobile_padding">
         <div class="feature_row">
             <div class="feature_item">
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/undefined/3398609_Website_470x940_CS.jpg" class="hoverer" alt="promotions">
-                </div>
-                <div>
-                    <img src="http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/jpeg/undefined/3398609_Website_470x470_1.jpg" class="hoverer" alt=""events>
-                </div>
+                <div id="feature_0" class="position_relative"></div>
+                <div id="feature_1" class="position_relative"></div>
             </div>
             
             <div class="feature_item">
