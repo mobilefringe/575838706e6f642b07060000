@@ -54,27 +54,22 @@
         init(e);
         function renderAll (){
             var categories = getStoreCategories();
-            var stores = getStoresList(); 
-            renderStoreList('#store_list_container','#store_list_template', stores, "A", "Z");
-            renderStoreList('#store_list_container2','#store_list_template', stores, "A", "Z");
-            renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
-            renderGeneral('#category_container', '#category_template', categories);
             
-            renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
-            show_cat_stores();
+            
+            
+          
             var coming_soon_stores = getComingSoonList();
             var new_stores = getNewStoresList();
             
             if (new_stores.length > 0){
-                renderGeneral("#new_store_container","#new_store_template", new_stores);
+                renderStoreList('#store_list_container','#store_list_template', new_stores, "A", "Z");
             }
             else{
                 $('#new_stores').hide();
             }
             
              if (coming_soon_stores.length > 0){
-                renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
+                renderStoreList('#store_list_container2','#store_list_template', coming_soon_stores, "A", "Z");
             }
             else{
                 $('#coming_soon_stores').hide();
