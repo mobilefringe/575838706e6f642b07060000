@@ -71,7 +71,7 @@
                 renderStoreList('#store_list_container2','#store_list_template', coming_soon_stores, "A", "Z");
             }
             else{
-                $('#coming_soon_stores').hide();
+                $('#coming_soon_stores').show();
             }
             show_content();
             
