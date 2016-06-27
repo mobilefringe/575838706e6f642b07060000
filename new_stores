@@ -64,7 +64,7 @@
                 renderStoreList('#store_list_container','#store_list_template', new_stores, "A", "Z");
             }
             else{
-                $('#new_stores').hide();
+                $('#new_stores').show();
             }
             
              if (coming_soon_stores.length > 0){
