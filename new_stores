@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-md-6">
                         <p class="store_initial">Opening Soon Stores</p>
-                        <p class="" id="coming_soon_stores">No new stores opening soon.</p>
+                        <p class="hidden_now" id="coming_soon_stores">No new stores opening soon.</p>
                         <div class="" id="store_list_container2">
                             
                         </div>
