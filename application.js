@@ -457,8 +457,8 @@ function renderHours(container, template, collection, type){
                 
             }
             if (val.open_time && val.close_time && val.is_closed == false){
-                var open_time = new Date (val.open_time + "T07:00:00Z")
-                var close_time = new Date (val.close_time + "T07:00:00Z")
+                var open_time = new Date (val.open_time)
+                var close_time = new Date (val.close_time)
                 val.open_time = convert_hour(open_time);
                 val.close_time = convert_hour(close_time);    
                 val.h = val.open_time+ " - " + val.close_time;
@@ -475,7 +475,7 @@ function renderHours(container, template, collection, type){
     if (type == "holiday_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
-                holiday = new Date (val.holiday_date + "T07:00:00Z")
+                holiday = new Date (val.holiday_date)
                 holiday.setDate(holiday.getDate()+1);
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
@@ -506,7 +506,7 @@ function renderHours(container, template, collection, type){
     if (type == "closed_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
-                holiday = new Date (val.holiday_date + "T07:00:00Z")
+                holiday = new Date (val.holiday_date + "T05:00:00Z")
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
                 if (val.open_time && val.close_time && val.is_closed == false){
@@ -599,8 +599,8 @@ function renderHomeHours(container, template, collection){
         val.month = get_month(d.getMonth());
         val.weekday = addZero(d.getDate());
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-            var open_time = new Date (val.open_time + "T07:00:00Z");
-            var close_time = new Date (val.close_time + "T07:00:00Z");
+            var open_time = new Date (val.open_time);
+            var close_time = new Date (val.close_time);
             val.open_time = convert_hour(open_time);
             val.close_time = convert_hour(close_time);    
             val.day = get_day(d.getDay())
@@ -672,7 +672,7 @@ function renderPostDetails(container, template, collection){
         else{
             val.description_short = val.body;
         }
-        var date_blog = new Date((val.publish_date + " 07:00:00").replace(/-/g,"/"));
+        var date_blog = new Date((val.publish_date + " 08:00:00").replace(/-/g,"/"));
         val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
         var next_p = getNextPublishedPostBySlug(val.slug);
         var prev_p = getPrevPublishedPostBySlug(val.slug);
