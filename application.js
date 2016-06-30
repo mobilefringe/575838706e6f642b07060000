@@ -599,8 +599,8 @@ function renderHomeHours(container, template, collection){
         val.month = get_month(d.getMonth());
         val.weekday = addZero(d.getDate());
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
-            var open_time = new Date (val.open_time);
-            var close_time = new Date (val.close_time);
+            var open_time = new Date (val.open_time + "T07:00:00Z");
+            var close_time = new Date (val.close_time + "T07:00:00Z");
             val.open_time = convert_hour(open_time);
             val.close_time = convert_hour(close_time);    
             val.day = get_day(d.getDay())
