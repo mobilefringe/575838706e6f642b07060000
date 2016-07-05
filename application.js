@@ -587,6 +587,7 @@ function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,em
     }
 }
 
+
 function renderHomeHours(container, template, collection){
     var item_list = [];
     var item_rendered = [];
@@ -603,7 +604,8 @@ function renderHomeHours(container, template, collection){
             var close_time = new Date (val.close_time);
             val.open_time = convert_hour(open_time);
             val.close_time = convert_hour(close_time);    
-            val.h = get_day(d.getDay()) + " " + val.open_time+ " - " + val.close_time;
+            val.day = get_day(d.getDay())
+            val.h = val.open_time+ " - " + val.close_time;
         } else {
             val.h = "Closed";
         }
