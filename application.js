@@ -457,8 +457,8 @@ function renderHours(container, template, collection, type){
                 
             }
             if (val.open_time && val.close_time && val.is_closed == false){
-                var open_time = new Date (val.open_time)
-                var close_time = new Date (val.close_time)
+                var open_time = new Date (val.open_time + "T07:00:00Z")
+                var close_time = new Date (val.close_time + "T07:00:00Z")
                 val.open_time = convert_hour(open_time);
                 val.close_time = convert_hour(close_time);    
                 val.h = val.open_time+ " - " + val.close_time;
