@@ -95,7 +95,8 @@
             if($.cookie("popup_viewed") != "true"){
                 $.cookie("popup_viewed", "true", { expires: 1 });
                 var popup = getPopups()[0]
-                $('.popup_home img').attr('src', 'http://cdn.mallmaverick.com' + popup.photo_url)
+                $('.popup_home a').attr('src', popup.photo_link)
+                $('.popup_home img').attr('href', 'http://cdn.mallmaverick.com' + popup.photo_url)
                 $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                 $('.popup_home').show()
             }
