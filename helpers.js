@@ -54,7 +54,7 @@ function show_content(){
     renderHomeHours('#home_hours_container3', '#home_hours_template3', getTodaysHours())
     $.each( getPropertyHours(), function(i,v){
         if(v.is_closed == true){
-            var hours_day = new Date(v.holiday_date + "T07:00:00Z")
+            var hours_day = new Date(v.holiday_date + "T08:00:00Z")
             if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
                 $('.hours_today').text("Closed Today")
             }
