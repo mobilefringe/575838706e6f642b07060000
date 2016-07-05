@@ -1,6 +1,6 @@
 <div class="popup_home hidden_now">
     <a href="#">
-        <img src="#" />
+        <img src="#" alt="pop up" />
     </a>
     <i class="fa fa-remove close_popup"></i>
 </div>
