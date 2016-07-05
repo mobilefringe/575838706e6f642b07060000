@@ -506,7 +506,7 @@ function renderHours(container, template, collection, type){
     if (type == "closed_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
-                holiday = new Date (val.holiday_date + "T05:00:00Z")
+                holiday = new Date (val.holiday_date + "T07:00:00Z")
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 console.log(val.open_time)
                 val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
