@@ -480,8 +480,7 @@ function renderHours(container, template, collection, type){
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
                 if (val.open_time && val.close_time && val.is_closed == false){
-                    
-                    var open_time = new Date (val.open_time + "T07:00:00Z")
+                    var open_time = new Date (val.open_time)
                     var close_time = new Date (val.close_time)
                     val.open_time = convert_hour(open_time);
                     val.close_time = convert_hour(close_time);    
@@ -511,6 +510,7 @@ function renderHours(container, template, collection, type){
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
                 if (val.open_time && val.close_time && val.is_closed == false){
+                    console.log(val.open_time)
                     var open_time = new Date (val.open_time)
                     var close_time = new Date (val.close_time)
                     val.open_time = convert_hour(open_time);
