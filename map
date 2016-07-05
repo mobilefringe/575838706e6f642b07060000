@@ -70,7 +70,7 @@
             show_content();
             var map = $('#mapsvg_store_detail').mapSvg({
                 source: getSVGMapURL(),
-                colors: {stroke: '#fff', selected: "#DCBB8D", hover: "#d8836C"},
+                colors: {stroke: '#fff', selected: "#DCBB8D", hover: "#a6a6a6"},
                 disableAll: true,
                 regions: regions,
                 height:1700,
