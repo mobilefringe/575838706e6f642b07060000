@@ -475,7 +475,7 @@ function renderHours(container, template, collection, type){
     if (type == "holiday_hours") {
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
-                holiday = new Date (val.holiday_date  + "T07:00:00Z")
+                holiday = new Date (val.holiday_date)
                 holiday.setDate(holiday.getDate()+1);
                 var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
                 val.formatted_date = weekdays[holiday.getDay()]+ " " + get_month(holiday.getMonth()) + " " +holiday.getDate()+ " " + holiday.getFullYear()
