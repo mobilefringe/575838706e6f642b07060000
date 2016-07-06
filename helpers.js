@@ -59,9 +59,7 @@ function show_content(){
                 $('.hours_today').text("Closed Today")
             }
         } 
-        if(v.is_holiday == true){
-            console.log(v)
-        }
+        
     })
     var events = getEventsList();
     var news_exist = false;
