@@ -60,7 +60,7 @@ function show_content(){
             }
         } 
         if(v.is_holiday == true{
-            console.log("here")
+            console.log(v)
         })
     })
     var events = getEventsList();
