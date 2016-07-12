@@ -21,7 +21,7 @@
           
             <option value="/community">Community</option>
             <option value="/accessibility">Accessibility</option>
-         
+         <option value="/services">Services Offerred</option>
         </select>
     </h5>
 </div>
