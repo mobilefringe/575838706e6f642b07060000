@@ -141,6 +141,7 @@ function renderPromotions(container, template, collection, centre){
         
         if(val.image_url.indexOf('missing.png') > 0){
             val.image_url  = "";
+            val.image_show = "display:none"
         }
         
         if(val.description.length > 200){
