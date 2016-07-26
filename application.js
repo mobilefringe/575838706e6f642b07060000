@@ -141,7 +141,7 @@ function renderPromotions(container, template, collection, centre){
         
         if(val.image_url.indexOf('missing.png') > 0){
             val.image_url  = "";
-            val.image_show = "display:none"
+            val.image_show = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png"
         }
         
         if(val.description.length > 200){
