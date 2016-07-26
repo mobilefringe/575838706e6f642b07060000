@@ -198,7 +198,7 @@ function renderPromoDetails(container, template, collection, centre){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/1461163897000/Logo.png";
+            val.store_image = "http://assets.codecloudapp.com/sites/575838706e6f642b07060000/image/png/undefined/corelogo.png";
             val.store_show = "display:none";
             val.phone_show = "display:none";
         }
