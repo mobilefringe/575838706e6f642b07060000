@@ -59,6 +59,12 @@ function show_content(){
                 $('.hours_today').text("Closed Today")
             }
         } 
+        if(v.is_holiday == true){
+            var hours_day = new Date(v.holiday_date + "T07:00:00Z")
+            if(hours_day.setHours(0, 0, 0, 0) == d.setHours(0, 0, 0, 0)){
+                renderHomeHours('#home_hours_container', '#home_hours_template', v)
+            }
+        }
         
     })
     var events = getEventsList();
