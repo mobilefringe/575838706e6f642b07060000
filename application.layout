@@ -157,7 +157,7 @@
                         <span id="home_hours_container">
                             <script id="home_hours_template" type="x-tmpl-mustache/text">
                                 <span class="hours_today">{%raw%}{{day}}{%endraw%}</span><br />
-                                <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
+                                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
                             </script>
                         </span>
                     </p>
