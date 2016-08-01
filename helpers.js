@@ -68,7 +68,7 @@ function show_content(){
                 v.close_time = convert_hour(close_time);    
                 v.day = get_day(d.getDay())
                 v.h = v.open_time+ " - " + v.close_time;
-                consol.log(v.h)
+                $('#hours_home').text(v.h)
             }
         }
         
