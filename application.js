@@ -597,7 +597,7 @@ function renderHomeHours(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);    
     $.each( item_list , function( key, val ) {
-        var d = moment().tz(site_json.time_zone);
+        var d = moment().tz("US/Mountain");
         val.month = get_month(d.getMonth());
         val.weekday = addZero(d.getDate());
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
