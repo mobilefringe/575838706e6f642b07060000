@@ -604,7 +604,7 @@ function renderHomeHours(container, template, collection){
             var open_time = in_my_time_zone(moment(val.open_time), "hh:mm a");
             var close_time = in_my_time_zone(moment(val.close_time), "hh:mm a");
             val.h = open_time + " - " + close_time;
-            val.day = d.format()
+            val.day = d.format('dddd')
         } else {
             val.h = "Closed";
         }
