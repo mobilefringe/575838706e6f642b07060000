@@ -598,8 +598,6 @@ function renderHomeHours(container, template, collection){
     item_list.push(collection);    
     $.each( item_list , function( key, val ) {
         var d = moment().tz("US/Mountain");
-        val.month = get_month(d.getMonth());
-        val.weekday = addZero(d.getDate());
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
             var open_time = in_my_time_zone(moment(val.open_time), "hh:mm a");
             var close_time = in_my_time_zone(moment(val.close_time), "hh:mm a");
