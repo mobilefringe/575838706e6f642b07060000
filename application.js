@@ -153,6 +153,7 @@ function renderPromotions(container, template, collection, centre){
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date);
         var end = moment(val.end_date);
+        console.log(end)
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM DD")
         }
