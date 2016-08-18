@@ -161,7 +161,6 @@ function renderPromotions(container, template, collection, centre){
         }
         
         
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
