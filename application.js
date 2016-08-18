@@ -656,24 +656,6 @@ function renderPostDetails(container, template, collection){
         }
         var date_blog = moment(val.publish_date).tz(site_json.time_zone);
         val.published_on = date_blog.format("MMMM D, YYYY")
-        var next_p = getNextPublishedPostBySlug(val.slug);
-        var prev_p = getPrevPublishedPostBySlug(val.slug);
-        if (next_p == undefined){
-            val.next_post_show = "display:none";
-        }
-        else{
-            val.next_post = next_p.title;
-            val.next_slug = next_p.slug;
-            val.next_post_show = "display:inline-block";
-        }
-        if (prev_p == undefined){
-            val.prev_post_show = "display:none";
-        }
-        else{
-            val.prev_post = prev_p.title;
-            val.prev_slug = prev_p.slug;
-            val.prev_post_show = "display:inline-block";
-        }
         
         if (val.tag != undefined){
             val.tag_list = val.tag.join(', ');
