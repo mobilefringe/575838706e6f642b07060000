@@ -264,15 +264,16 @@ function renderEvents(container, template, collection, centre){
             val.event_image_url_abs="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T07:00:00Z");
-        start = new Date (val.start_date + "T07:00:00Z");
-        end = new Date (val.end_date + "T07:00:00Z");
-    
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(site_json.time_zone);
+        var end = moment(val.end_date).tz(site_json.time_zone);
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM DD")
         }
+        else{
+            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+        }
+        
         if (val.tags.length ==0){
             var rendered = Mustache.render(template_html,val);
             item_rendered.push(rendered);
