@@ -475,8 +475,8 @@ function renderHours(container, template, collection, type){
                 
             }
             if (val.open_time && val.close_time && val.is_closed == false){
-                var open_time = in_my_time_zone(moment(val.open_time), "hh:mm A");
-                var close_time = in_my_time_zone(moment(val.close_time), "hh:mm A");
+                var open_time = in_my_time_zone(moment(val.open_time), "hh:mmA");
+                var close_time = in_my_time_zone(moment(val.close_time), "hh:mmA");
                 val.h = open_time + " - " + close_time;
             } else {
                 "Closed"
@@ -494,8 +494,8 @@ function renderHours(container, template, collection, type){
                 holiday = moment(val.holiday_date);
                 val.formatted_date = in_my_time_zone(holiday, "MMM DD")
                 if (val.open_time && val.close_time && val.is_closed == false){
-                    var open_time = in_my_time_zone(moment(val.open_time), "hh:mm A");
-                    var close_time = in_my_time_zone(moment(val.close_time), "hh:mm A");
+                    var open_time = in_my_time_zone(moment(val.open_time), "hh:mmA");
+                    var close_time = in_my_time_zone(moment(val.close_time), "hh:mmA");
                     val.h = open_time + " - " + close_time;   
                     item_list.push(val);
                 }
@@ -509,7 +509,7 @@ function renderHours(container, template, collection, type){
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
                 holiday = moment(val.holiday_date);
-                val.formatted_date = in_my_time_zone(holiday, "MMM DD")
+                val.formatted_date = in_my_time_zone(holiday, "dddd MMMM DD, YYYY")
                 if (val.open_time && val.close_time && val.is_closed == true){
                     val.h = "Closed";
                     item_list.push(val);
