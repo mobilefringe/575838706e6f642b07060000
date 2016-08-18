@@ -335,5 +335,5 @@ function capitalizeFirstLetter(string) {
 
 
 function in_my_time_zone(hour, format){
-    return hour.tz('US/Denver').format(format)
+    return hour.tz('America/Denver').format(format)
 }
