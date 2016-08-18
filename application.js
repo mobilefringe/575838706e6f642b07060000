@@ -428,7 +428,7 @@ function renderJobDetails(container, template, collection, mall_name){
             val.dates = start.format("MMM DD")
         }
         else{
-            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+            val.dates = start.format("MMM DD") + " - " + end.format("MMMM DD")
         }
     
         var rendered = Mustache.render(template_html,val);
