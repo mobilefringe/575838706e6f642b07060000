@@ -1,1 +1,1 @@
-var site_json = {"time_zone" : "US/Mountain"}
+var site_json = {"time_zone" : "America/Denver"}
