@@ -215,14 +215,14 @@ function renderPromoDetails(container, template, collection, centre){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T07:00:00Z");
-        start = new Date (val.start_date + "T07:00:00Z");
-        end = new Date (val.end_date + "T07:00:00Z");
-    
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(site_json.time_zone);
+        var end = moment(val.end_date).tz(site_json.time_zone);
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM DD")
+        }
+        else{
+            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
         }
         
         var rendered = Mustache.render(template_html,val);
