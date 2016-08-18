@@ -627,7 +627,7 @@ function renderPosts(container, template, collection){
         
         val.counter = counter;
         var date_blog = "";
-        console.log(val.publish_date))
+        console.log(val.publish_date)
         val.published_on = date_blog.format("MMMM D, YYYY")
         
         var rendered = Mustache.render(template_html,val);
