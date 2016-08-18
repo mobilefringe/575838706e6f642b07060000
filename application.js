@@ -154,10 +154,10 @@ function renderPromotions(container, template, collection, centre){
         var start = moment(val.start_date).tz(site_json.time_zone);
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM DD")
+            val.dates = start.format("MMMM DD")
         }
         else{
-            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+            val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         
         
@@ -219,10 +219,10 @@ function renderPromoDetails(container, template, collection, centre){
         var start = moment(val.start_date).tz(site_json.time_zone);
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM DD")
+            val.dates = start.format("MMMM DD")
         }
         else{
-            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+            val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         
         var rendered = Mustache.render(template_html,val);
@@ -268,10 +268,10 @@ function renderEvents(container, template, collection, centre){
         var start = moment(val.start_date).tz(site_json.time_zone);
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM DD")
+            val.dates = start.format("MMMM DD")
         }
         else{
-            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+            val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         
         if (val.tags.length ==0){
