@@ -331,10 +331,10 @@ function renderEventDetails(container, template, collection, mall_name){
         var start = moment(val.start_date).tz(site_json.time_zone);
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM DD")
+            val.dates = start.format("MMMM DD")
         }
         else{
-            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+            val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         
         var rendered = Mustache.render(template_html,val);
@@ -368,10 +368,10 @@ function renderJobs(container, template, collection){
         var start = moment(val.start_date).tz(site_json.time_zone);
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM DD")
+            val.dates = start.format("MMMM DD")
         }
         else{
-            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+            val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         
         var rendered = Mustache.render(template_html,val);
