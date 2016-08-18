@@ -5,10 +5,10 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
        
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h5><a href="/community">COMMUNITY</a></h5>
         </div>
-        <div class="col-md-3 text-center">
+        <div class="col-md-4 text-center">
             <h5 class="active_heading">ACCESSIBILITY</h5>
         </div>
         <div class="col-md-4 text-center">
