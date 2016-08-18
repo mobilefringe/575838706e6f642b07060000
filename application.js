@@ -422,8 +422,14 @@ function renderJobDetails(container, template, collection, mall_name){
             val.store_image = "http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/png/undefined/corelogo.png";
         }
         
-        var show_date = new Date (val.start_date + "T07:00:00Z");
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        var start = moment(val.start_date).tz(site_json.time_zone);
+        var end = moment(val.end_date).tz(site_json.time_zone);
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM DD")
+        }
+        else{
+            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+        }
     
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
