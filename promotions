@@ -82,7 +82,7 @@
                 today = moment();
                 webDate = moment(val.show_on_web_date)
                 if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
-                    published_promos.push(val)
+                    published_promos.push(val);
                 } 
             });
             if(published_promos.length > 0){
