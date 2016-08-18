@@ -154,7 +154,7 @@ function renderPromotions(container, template, collection, centre){
         var start = moment(val.start_date);
         var end = moment(val.end_date);
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM DD")
+            val.dates = in_my_time_zone(start, "MMM DD")
         }
         else{
             val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
