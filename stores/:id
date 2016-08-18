@@ -127,10 +127,10 @@
             var store_jobs = getJobsForIds(store_job_ids).sortBy(function(o){ return o.start_date });
             var published_jobs = [];
             $.each( store_jobs , function( key, val ){
-                today = new Date();
-                webDate = new Date(val.show_on_web_date)
-                if (today >= webDate) {
-                    published_jobs.push(val)
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_promos.push(val);
                 } 
             });
             if( published_jobs.length > 0){
