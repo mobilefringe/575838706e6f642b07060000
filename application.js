@@ -371,7 +371,13 @@ function renderJobs(container, template, collection){
             val.dates = start.format("MMM DD")
         }
         else{
+            val.var end = moment(val.end_date).tz(site_json.time_zone);
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM DD")
+        }
+        else{
             val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+        } = start.format("MMM DD") + " - " + end.format("MMM DD")
         }
         
         var rendered = Mustache.render(template_html,val);
