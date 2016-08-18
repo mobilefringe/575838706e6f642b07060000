@@ -33,12 +33,12 @@
             var jobs = getJobsList().sortBy(function(o){ return o.name});
             var published_jobs = [];
             $.each( jobs , function( key, val ){
-            today = moment();
-            webDate = moment(val.show_on_web_date)
-            if (today.tz('America/Toronto') >= webDate.tz('America/Toronto')) {
-                published_jobs.push(val)
-            } 
-        });
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz('America/Toronto') >= webDate.tz('America/Toronto')) {
+                    published_jobs.push(val)
+                } 
+            });
             if(published_jobs.length > 0){
                 renderJobs('#jobs_container', '#jobs_template', jobs, "Virginia Gateway");
             }
