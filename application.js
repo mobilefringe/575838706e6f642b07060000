@@ -492,7 +492,7 @@ function renderHours(container, template, collection, type){
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
                 holiday = moment(val.holiday_date);
-                val.formatted_date = in_my_time_zone(holiday, "dddd MMMM D YYYY");
+                val.formatted_date = in_my_time_zone(holiday, "dddd MMMM D, YYYY");
                 if (val.open_time && val.close_time && val.is_closed == false){
                     var open_time = in_my_time_zone(moment(val.open_time), "h:mmA");
                     var close_time = in_my_time_zone(moment(val.close_time), "h:mmA");
@@ -509,7 +509,7 @@ function renderHours(container, template, collection, type){
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == true) {
                 holiday = moment(val.holiday_date);
-                val.formatted_date = in_my_time_zone(holiday, "dddd MMMM D YYYY");
+                val.formatted_date = in_my_time_zone(holiday, "dddd MMMM D, YYYY");
                 if (val.open_time && val.close_time && val.is_closed == true){
                     val.h = "Closed";
                     item_list.push(val);
