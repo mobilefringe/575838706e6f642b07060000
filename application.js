@@ -152,10 +152,9 @@ function renderPromotions(container, template, collection, centre){
         
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(site_json.time_zone);
-        console.log(start)
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start("MMM DD")
+            val.dates = start.format("MMM DD")
         }
         else{
             val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
