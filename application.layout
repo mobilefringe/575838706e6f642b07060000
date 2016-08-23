@@ -60,7 +60,7 @@
    </script>
     
     <script>
-        setEndPoint('http://core.mallmaverick.com/api/v3/twinpines/all.json');
+        setEndPoint('http://core.mallmaverick.com/api/v3/core/all.json');
         setSocialEndPoint('http://core.mallmaverick.com/api/v3/core/social.json')
     </script>
 </head>
