@@ -558,6 +558,14 @@ function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,em
      item_list.sort(sortByWebDate);
     
       $.each( item_list , function( key, val ) {
+            var start = moment(val.start_date).tz(site_json.time_zone);
+            var end = moment(val.end_date).tz(site_json.time_zone);
+            if (start.format("DMY") == end.format("DMY")){
+                val.dates = start.format("MMMM DD")
+            }
+            else{
+                val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
+            }
             var rendered = Mustache.render(template_html,val);
             sorted_list.push(rendered);
       });
