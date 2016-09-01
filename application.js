@@ -537,7 +537,8 @@ function renderEventsWithImgTemplate(template_id,html_id,not_empty_section_id,em
     Mustache.parse(template_html);   // optional, speeds up future uses
 
     $.each( events , function( key, val ) {
-        console.log(val.tags)
+        
+        console.log(type)
         if(($.inArray(type, val.tags) != -1) && showOnWeb(val)){
             
             if(hasImage(val.event_image_url)){
