@@ -6,21 +6,16 @@
     <div class="row hidden_phone">
        
         <div class="col-md-4 text-center">
-            <h5 class="active_heading">COMMUNITY</h5>
+            <h5 class="active_heading">Resolve</h5>
         </div>
-        <div class="col-md-4 text-center">
-            <h5><a href="/accessibility">ACCESSIBILITY</a></h5>
-        </div>
-          <div class="col-md-4 text-center">
-            <h5><a href="/services">Services Offerred</a></h5>
-        </div>
+       
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
        
-            <option value="/community">Community</option>
-            <option value="/accessibility">Accessibility</option>
+            <option value="/resolve">Resolve</option>
+           
            
         </select>
     </h5>
