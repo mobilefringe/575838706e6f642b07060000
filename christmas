@@ -35,6 +35,10 @@
                 <label for="company_address">Company Address *</label> 
                 <input  type="text" required  title="Company Address" class="custom_form_control" id="company_address" name="cm-f-hhutkd" placeholder="Company Address" />
             </div>
+            <div class="col-md-6">
+                <label for="fieldEmail">Contact Email *</label
+                <input id="fieldEmail" name="cm-bljbh-bljbh" type="email" required />
+            </div>
         </div>
     </form>
 </div>
