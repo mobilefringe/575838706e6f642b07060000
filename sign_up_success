@@ -52,7 +52,9 @@
 		Awards - We know you have a competitive edge, and we do too! Stay tuned for some different challenges and awards that you can win while you&rsquo;re decorating your trees.</li>
 </ul>
 
-    <p class="text-center margin_60"><a href="/stores" class="newsletter_btn animated_btn text-center">VISIT THE<br/>CORE STORES</a></p>
+    <p class="text-center margin_60"><a href="/stores" class="newsletter_btn animated_btn text-center">VISIT THE<br/>CORE STORES</a>
+        <a href="http://www.resolvecampaign.com/" class="newsletter_btn animated_btn text-center">VISIT THE<br/>LEARN MORE ABOUT RESOLVE</a>
+    </p>
     
 </div>
 <script>
