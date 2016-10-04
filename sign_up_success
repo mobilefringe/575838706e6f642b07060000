@@ -13,7 +13,9 @@
         </div>
     </div>
 </div>
-
+<div class="main_container content_container margin_25_across">
+    <h1 class="thank_you_xmas"></h1>
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
