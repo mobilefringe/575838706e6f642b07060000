@@ -7,16 +7,6 @@
     <div class="main_banner text-center">
         <h3>REGISTRY</h3>
     </div>
-    <div class="main_container content_container">
-        <div class="store_list_head ">
-            <div class="row">
-                <div class="col-md-12 store_top padding_xmas">
-                    <h5 class="back_btn show_phone">CORE CHRISTMAS</h5>
-                    <h5 class="soft_hidden_phone store_anchors active_heading">CORE CHRISTMAS</h5>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="row hidden_phone">
         <div class="col-md-3">
             <h5><a href="/promotions">PROMOTIONS</a></h5>
