@@ -35,12 +35,23 @@
 <div class="main_container content_container margin_25_across padding_xmas">
     <h1 class="thank_you_xmas">THANK YOU</h1>
     <p class="thank_you_msg">
-        For registering to the Resolve Christmas Campaign
+       
     </p>
     
-    <p class="thank_you_desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+ 
+     <p class="thank_you_desc" style="text-align: left;">
+	Thank you for registering for &ldquo;Find Christmas Downtown&rdquo;. We can&rsquo;t wait to host you! There are some things you don&rsquo;t know yet, but don&rsquo;t worry! We&rsquo;ll be following up on the week of November 7th to give you some details on:</p>
+<ul>
+	<li style="text-align: left;">
+		Your tree &ndash; When you arrive on the 24th we will have a tree ready to go for you. Wait for our email in early November for the exact location.</li>
+	<li style="text-align: left;">
+		Registration &amp; Timing &ndash; We&rsquo;ll reach out with your exact registration time, this will ensure that you are checked in quickly and without confusion.</li>
+	<li style="text-align: left;">
+		Day of contact &ndash; We will assign you a go-to person for the day. We will provide the name and contact information of this person so that you know whom to turn to!</li>
+	<li style="text-align: left;">
+		Awards - We know you have a competitive edge, and we do too! Stay tuned for some different challenges and awards that you can win while you&rsquo;re decorating your trees.</li>
+</ul>
+
     <p class="text-center margin_60"><a href="/stores" class="newsletter_btn animated_btn text-center">VISIT THE<br/>CORE STORES</a></p>
     
 </div>
