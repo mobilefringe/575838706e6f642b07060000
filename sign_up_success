@@ -13,3 +13,15 @@
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        $('#subForm').submit(function(){
+           $('#full_name').val($('#first_name').val() + " " + $('#last_name').val());
+        });
+        show_content()
+    })
+    
+
+</script>
