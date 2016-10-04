@@ -22,7 +22,7 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <!--<option value="/events">Promotions</option>-->
             <option value="/events">Events</option>
-            <option class="news_link" value="/development">Development</option>
+            <option class="news_link" value="/sign_up">Core Christmas</option>
             <option class="contest_link" value="/contests">Contests</option>
         </select>
     </h5>
