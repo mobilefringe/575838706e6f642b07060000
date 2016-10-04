@@ -48,7 +48,7 @@
                 <input id="phone" name="cm-f-hhutku" type="text" required class="custom_form_control_xmas" placeholder="Number of Team Members" />
             </div>
             <div class="col-md-6">
-                <p class="team_members_desc">We suggest between 4-6 team members.</p>
+                <p class="team_members_desc">We suggest between 4-6 members per team.</p>
             </div>
         </div>
     </form>
