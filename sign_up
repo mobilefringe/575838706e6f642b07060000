@@ -58,7 +58,7 @@
     </form>
     <div class="row">
         <div class="col-md-12">
-            <h3 class="hours_heading">Things to know</h3>
+            <h3 class="hours_heading text-center">Things to know</h3>
         </div>
     </div>
 </div>
