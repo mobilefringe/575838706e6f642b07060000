@@ -29,6 +29,16 @@
                 <br/>
                 <input  type="text" required  title="Last Name" class="custom_form_control" id="last_name" name="last_name" />
             </div>
+            <div class="col-md-6">
+                <label for="first_name">First Name *</label> 
+                <br/>
+                <input  type="text" required  title="First Name" class="custom_form_control" id="first_name" name="first_name" />
+            </div>
+            <div class="col-md-6">
+                <label for="last_name">Last Name *</label> 
+                <br/>
+                <input  type="text" required  title="Last Name" class="custom_form_control" id="last_name" name="last_name" />
+            </div>
         </div>
     </form>
 </div>
