@@ -51,7 +51,7 @@
                 <p class="team_members_desc">We suggest between 4-6 members per team.</p>
             </div>
             <div class="col-md-12 text-center">
-                <input class="newsletter_btn animated_btn" name="commit" type="submit" value="REGISTER" style="width:180px;">
+                <input class="newsletter_btn animated_btn" name="commit" type="submit" value="REGISTER">
             </div>
         </div>
     </form>
