@@ -22,7 +22,7 @@
             <div class="col-md-6">
                 <label for="first_name">First Name *</label> 
                 <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="first_name" placeholder="First Name" />
-                <input id="fieldhhutki" name="cm-f-hhutki" type="hidden" />
+                <input id="full_name" name="cm-f-hhutki" type="hidden" />
             </div>
             <div class="col-md-6">
                 <label for="last_name">Last Name *</label> 
@@ -61,8 +61,8 @@
     $(document).ready(function(e){
         init(e);
         $('#subForm').submit(function(){
-            
-        })
+           $('#full_name').val($('#first_name').val() + " " + $('#last_name').val())
+        });
         show_content()
     })
     
