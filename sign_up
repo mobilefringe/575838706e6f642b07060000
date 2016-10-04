@@ -38,6 +38,7 @@
             <div class="col-md-12 text-center">
                 <h3 class="christmas_header">Find<br />Christmas<br />Downtown</h3>
                 <img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/png/1475603956000/Screen_Shot_2016-09-30_at_11.05.29_AM.png" class="" alt="">
+                <br />
             </div>
             <div class="col-md-6">
                 <label for="first_name">First Name *</label> 
