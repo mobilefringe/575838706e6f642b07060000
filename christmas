@@ -45,7 +45,7 @@
             </div>
             <div class="col-md-6">
                 <label for="team_members">Number of Team Members *</label>
-                <input id="phone" name="cm-f-hhutku" type="text" required class="custom_form_control_xmas" placeholder="Number of Team Members" />
+                <input id="team_members" name="cm-f-hhutku" type="text" required class="custom_form_control_xmas" placeholder="Number of Team Members" />
             </div>
             <div class="col-md-6">
                 <p class="team_members_desc">We suggest between 4-6 members per team.</p>
