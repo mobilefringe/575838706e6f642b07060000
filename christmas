@@ -41,7 +41,7 @@
             </div>
             <div class="col-md-6">
                 <label for="phone">Contact Phone *</label>
-                <input id="phone" name="cm-bljbh-bljbh" type="text" required class="custom_form_control_xmas" placeholder="Contact Email" />
+                <input id="phone" name="cm-bljbh-bljbh" type="text" required class="custom_form_control_xmas" placeholder="Contact Phone" />
             </div>
         </div>
     </form>
