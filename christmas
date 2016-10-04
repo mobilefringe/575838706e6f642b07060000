@@ -40,8 +40,8 @@
                 <input id="email" name="cm-bljbh-bljbh" type="email" required class="custom_form_control_xmas" placeholder="Contact Email" />
             </div>
             <div class="col-md-6">
-                <label for="phone">Contact Email *</label>
-                <input id="fieldEmail" name="cm-bljbh-bljbh" type="email" required class="custom_form_control_xmas" placeholder="Contact Email" />
+                <label for="phone">Contact Phone *</label>
+                <input id="phone" name="cm-bljbh-bljbh" type="email" required class="custom_form_control_xmas" placeholder="Contact Email" />
             </div>
         </div>
     </form>
