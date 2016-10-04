@@ -7,28 +7,16 @@
     <div class="main_banner text-center">
         <h3>REGISTRY</h3>
     </div>
-    <div class="row hidden_phone">
-        <div class="col-md-3">
-            <h5><a href="/promotions">PROMOTIONS</a></h5>
-        </div>
-        <div class="col-md-3 text-center">
-            <h5><a href="/events">EVENTS</a></h5>
-        </div>
-        <div class="col-md-3 text-center">
-            <h5 class="active_heading">CORE CHRISTMAS</h5>
-        </div>
-        <div class="col-md-3 text-right">
-            <h5 class="contest_link"><a href="/contests">CONTESTS</a></h5>
+    <div class="main_container content_container">
+        <div class="store_list_head ">
+            <div class="row">
+                <div class="col-md-12 store_top padding_xmas">
+                    <h5 class="back_btn show_phone">CORE CHRISTMAS</h5>
+                    <h5 class="soft_hidden_phone store_anchors active_heading">CORE CHRISTMAS</h5>
+                </div>
+            </div>
         </div>
     </div>
-    <h5 class="text-center tap_here show_phone">
-        <select id="option_selector" class="link_selector">
-            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <<option value="/promotions">Promotions</option>
-            <option value="/events">Events</option>
-            <option class="contest_link" value="/contests">Contests</option>
-        </select>
-    </h5>
 </div>
 <div class="main_container content_container margin_25_across padding_xmas">
     <form action="http://mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="subForm">
