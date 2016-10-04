@@ -19,7 +19,9 @@
             <h3 class="christmas_header">Find<br />Christmas<br />Downtown</h3>
         </div>
         <div class="col-md-6">
-            
+            <label for="cm-name">Name *</label> 
+            <br/>
+            <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
         </div>
         <div class="col-md-6">
             
