@@ -57,7 +57,7 @@
         </div>
     </form>
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <h3 class="hours_heading text-center">Things to know</h3>
             <div>
                 <h5 class="things_to_know">Tree set up with lights, include size</h5>
