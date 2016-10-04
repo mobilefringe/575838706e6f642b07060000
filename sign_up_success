@@ -15,6 +15,9 @@
 </div>
 <div class="main_container content_container margin_25_across">
     <h1 class="thank_you_xmas">THANK YOU</h1>
+    <p>
+        For registering to the Resolve Christmas Campaign
+    </p>
 </div>
 <script>
     $(document).ready(function(e){
