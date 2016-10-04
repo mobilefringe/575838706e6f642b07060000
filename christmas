@@ -14,19 +14,21 @@
     </div>
 </div>
 <div class="main_container content_container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h3 class="christmas_header">Find<br />Christmas<br />Downtown</h3>
+    <form action="http://mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="subForm">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="christmas_header">Find<br />Christmas<br />Downtown</h3>
+            </div>
+            <div class="col-md-6">
+                <label for="cm-name">Name *</label> 
+                <br/>
+                <input  type="text" required  title="First Name" class="" id="cm-name" name="cm-name" />
+            </div>
+            <div class="col-md-6">
+                
+            </div>
         </div>
-        <div class="col-md-6">
-            <label for="cm-name">Name *</label> 
-            <br/>
-            <input  type="text" required  title="First Name" class="newletter-hidden" id="cm-name" name="cm-name" />
-        </div>
-        <div class="col-md-6">
-            
-        </div>
-    </div>
+    </form>
 </div>
 <script>
     $(document).ready(function(e){
