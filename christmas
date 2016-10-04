@@ -36,6 +36,10 @@
                 <input  type="text" required  title="Company Address" class="custom_form_control_xmas" id="company_address" name="cm-f-hhutkd" placeholder="Company Address" />
             </div>
             <div class="col-md-6">
+                <label for="email">Contact Email *</label>
+                <input id="email" name="cm-bljbh-bljbh" type="email" required class="custom_form_control_xmas" placeholder="Contact Email" />
+            </div>
+            <div class="col-md-6">
                 <label for="fieldEmail">Contact Email *</label>
                 <input id="fieldEmail" name="cm-bljbh-bljbh" type="email" required class="custom_form_control_xmas" placeholder="Contact Email" />
             </div>
