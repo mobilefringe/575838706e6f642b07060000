@@ -45,7 +45,7 @@
             </div>
             <div class="col-md-6">
                 <label for="phone">Number of Team Members *</label>
-                <input id="phone" name="cm-f-hhutkh" type="text" required class="custom_form_control_xmas" placeholder="Contact Phone" />
+                <input id="phone" name="cm-f-hhutkh" type="text" required class="custom_form_control_xmas" placeholder="Number of Team Members" />
             </div>
         </div>
     </form>
