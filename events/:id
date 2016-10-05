@@ -30,10 +30,10 @@
                 <p class="promo_dates underline">{{dates}}</p>
                 <p class="show_phone"><span class="promo_store">{{store_name}} </span><a href="/stores/{{store_slug}}" class="read_more">View Store Info</a></p>
                 <p class="show_phone mobile_share_container">
-                    <a href="https://www.facebook.com/sharer.php?u=http://coreshopping.ca/promotions/{{slug}}" target="_blank">
+                    <a href="https://www.facebook.com/sharer.php?u=https://coreshopping.ca/promotions/{{slug}}" target="_blank">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f511656e6f647fe3020000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
                     </a>
-                    <a href="https://twitter.com/intent/tweet?url=http://coreshopping.ca/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
+                    <a href="https://twitter.com/intent/tweet?url=https://coreshopping.ca/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f511656e6f647fe3020000/image/png/1461347344000/tweet.png" class="" alt="tweet">
                     </a>
                 </p>
@@ -46,10 +46,10 @@
                     <a class="animated_btn" href="//{{website}}" target="_blank" style="{{show}}">Visit Website</a>
                 </div>
                 <div class="share_container">
-                    <a href="https://www.facebook.com/sharer.php?u=http://coreshopping.ca/promotions/{{slug}}" target="_blank">
+                    <a href="https://www.facebook.com/sharer.php?u=https://coreshopping.ca/promotions/{{slug}}" target="_blank">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f511656e6f647fe3020000/image/png/1461347327000/fb_share.png" class="" alt="share facebook">
                     </a>
-                    <a href="https://twitter.com/intent/tweet?url=http://coreshopping.ca/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
+                    <a href="https://twitter.com/intent/tweet?url=https://coreshopping.ca/promotions/{{slug}}&text={{name}}" target="_blank" data-size="large">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57f511656e6f647fe3020000/image/png/1461347344000/tweet.png" class="" alt="tweet">
                     </a>
                 </div>
