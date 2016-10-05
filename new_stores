@@ -1,0 +1,85 @@
+<script src="//mallmaverick.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
+<div class="main_banner text-center">
+    <h3>Shop & Entertainment</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container ">
+    <div class="row hidden_phone">
+        <div class="col-md-4">
+            <h5 class="active_heading">Shopping & services</h5>
+        </div>
+        <div class="col-md-4">
+            <h5><a href="/restaurants">Restaurants</a></h5>
+        </div>
+        <div class="col-md-4">
+            <h5><a href="/map">Centre Map</a></h5>
+        </div>
+        <div class="col-md-4">
+            <!--<h5><a href="#">Dining & Entertainment</a></h5>-->
+        </div>
+    </div>
+</div>
+<div class="content_container main_container position_relative">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p class="store_initial">New Stores</p>
+                        <p class="hidden_now" id="new_stores">No new stores opening.</p>
+                        <div class="" id="store_list_container">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="store_initial">Opening Soon</p>
+                        <p class="hidden_now" id="coming_soon_stores">No new stores opening soon.</p>
+                        <div class="" id="store_list_container2">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 hidden_phone">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script id="store_list_template" type="x-tmpl-mustache/text">
+    <div class="store_list_content cats_row" data-cat="{{cat_list}}">
+        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+    </div>
+</script>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var categories = getStoreCategories();
+            
+            
+            
+          
+            var coming_soon_stores = getComingSoonList();
+            var new_stores = getNewStoresList();
+            
+            if (new_stores.length > 0){
+                renderStoreList('#store_list_container','#store_list_template', new_stores, "A", "Z");
+            }
+            else{
+                $('#new_stores').show();
+            }
+            
+             if (coming_soon_stores.length > 0){
+                renderStoreList('#store_list_container2','#store_list_template', coming_soon_stores, "A", "Z");
+            }
+            else{
+                $('#coming_soon_stores').show();
+            }
+            show_content();
+            
+            
+        }
+        
+		loadMallDataCached(renderAll); 
+    })
+</script>
