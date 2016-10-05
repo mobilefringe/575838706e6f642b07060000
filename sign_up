@@ -1,0 +1,122 @@
+<style>
+    .newsletter_container{
+        display:none;
+    }
+</style>
+<div id="store_container">
+    <div class="main_banner text-center">
+        <h3>REGISTRY</h3>
+    </div>
+    <div class="store_list_head main_container">
+        <div class="row hidden_phone">
+            <div class="col-md-3">
+                <h5><a href="/promotions">PROMOTIONS</a></h5>
+            </div>
+            <div class="col-md-3 text-center">
+                <h5><a href="/events">EVENTS</a></h5>
+            </div>
+            <div class="col-md-3 text-center">
+                <h5 class="active_heading">CORE CHRISTMAS</h5>
+            </div>
+            <div class="col-md-3 text-right">
+                <h5 class="contest_link"><a href="/contests">CONTESTS</a></h5>
+            </div>
+        </div>
+        <h5 class="text-center tap_here show_phone">
+            <select id="option_selector" class="link_selector">
+                <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+                <<option value="/promotions">Promotions</option>
+                <option value="/events">Events</option>
+                <option class="contest_link" value="/contests">Contests</option>
+            </select>
+        </h5>
+    </div>
+</div>
+<div class="main_container content_container margin_25_across padding_xmas">
+    <form action="//mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="subForm">
+        <div class="row margin_60">
+            <div class="col-md-12 text-center">
+                <h3 class="christmas_header">Find<br />Christmas<br />Downtown</h3>
+                <img src="//codecloud.cdn.speedyrails.net/sites/57f511656e6f647fe3020000/image/png/1475603956000/Screen_Shot_2016-09-30_at_11.05.29_AM.png" class="" alt="">
+                <br /><br />
+            </div>
+            <div class="col-md-6">
+                <label for="first_name">First Name *</label> 
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="first_name" placeholder="First Name" />
+                <input id="full_name" name="cm-name" type="hidden" />
+            </div>
+            <div class="col-md-6">
+                <label for="last_name">Last Name *</label> 
+                <input  type="text" required  title="Last Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
+            </div>
+            <div class="col-md-6">
+                <label for="company_name">Company Name *</label> 
+                <input  type="text" required  title="Company Name" class="custom_form_control_xmas" id="company_name" name="cm-f-hhutki" placeholder="Company Name" />
+            </div>
+            <div class="col-md-6">
+                <label for="company_address">Company Address *</label> 
+                <input  type="text" required  title="Company Address" class="custom_form_control_xmas" id="company_address" name="cm-f-hhutkd" placeholder="Company Address" />
+            </div>
+            <div class="col-md-6">
+                <label for="email">Contact Email *</label>
+                <input id="email" name="cm-bljbh-bljbh" type="email" required class="custom_form_control_xmas" placeholder="Contact Email" />
+            </div>
+            <div class="col-md-6">
+                <label for="phone">Contact Phone *</label>
+                <input id="phone" name="cm-f-hhutkh" type="text" required class="custom_form_control_xmas" placeholder="Contact Phone" />
+            </div>
+            <div class="col-md-6">
+                <label for="team_members">Number of Team Members *</label>
+                <input id="team_members" name="cm-f-hhutku" type="text" required class="custom_form_control_xmas" placeholder="Number of Team Members" />
+            </div>
+            <div class="col-md-6">
+                <p class="team_members_desc">We suggest between 4-6 members per team.</p>
+            </div>
+            <div class="col-md-12 text-center">
+                <input class="newsletter_btn animated_btn" name="commit" type="submit" value="REGISTER">
+            </div>
+        </div>
+    </form>
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="hours_heading text-center">Things to know</h3>
+            <div>
+                <h5 class="things_to_know">Your Tree</h5>
+                <p class="margin_20">You will be provided with a 6ft tall, pre-lit, synthetic Christmas tree. All you need are the ornaments and your team!</p>
+                
+                <h5 class="things_to_know">Suggested team size</h5>
+                <p class="margin_20">While we have no team minimum or maximum, we suggest you bring 4-8 tree decorators due to limited space between trees.</p>
+                
+                <h5 class="things_to_know">What To Bring</h5>
+                <ul class="margin_20">
+                    <li>
+                        Bring a minimum of 80-100 ornaments with you. While some may be branded, remember that this tree will be going into a deserving Calgarians home. 
+                    </li>
+                    <li>
+                        We suggest you bring a step stool with you to make sure every inch of the tree is decorated!
+                    </li>
+                    <li>
+                        Fun outfits are also encouraged.
+                    </li>
+                </ul>
+                
+                <h5 class="things_to_know">Corporate & Donation Gift Cards</h5>
+                <p class="margin_20">Make your corporate Christmas gifts easy and pick up some gift cards to the CORE while you're here! You can order them ahead of time when you register. They'll be packaged and ready to go at Guest Services when you arrive. It's a gift you can feel great about, because for every $1000 that is spent on gift cards, we'll donate a $100 gift card to one of the RESOLVE families receiving a tree.</p>
+                
+                <h5 class="things_to_know">Social Media</h5>
+                <p class="margin_20">Remember to tweet, Instagram, and Facebook your experience! Use the hashtag #COREChristmas.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        $('#subForm').submit(function(){
+           $('#full_name').val($('#first_name').val() + " " + $('#last_name').val());
+        });
+        show_content()
+    })
+    
+
+</script>
