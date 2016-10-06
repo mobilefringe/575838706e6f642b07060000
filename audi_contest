@@ -20,7 +20,16 @@
     <form action="http://mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="subForm">
         <div class="row margin_60">
             <div class="col-md-12 text-center">
-                
+                <div class="col-md-12 text-center">
+                    <h3 class="christmas_header">Find<br />Christmas<br />Downtown</h3>
+                    <img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/png/1475603956000/Screen_Shot_2016-09-30_at_11.05.29_AM.png" class="" alt="">
+                    <br /><br />
+                </div>
+                <div class="col-md-6">
+                    <label for="first_name">First Name *</label> 
+                    <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="first_name" placeholder="First Name" />
+                    <input id="full_name" name="cm-name" type="hidden" />
+                </div>
         </div>
     </form>
 </div>
