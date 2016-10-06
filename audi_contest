@@ -45,12 +45,16 @@
             </div>
             <div class="col-md-12">
                 <label>
-                    <input class="info_check" id="mall_info" type="checkbox" name="contest[newsletter]">
+                    <input class="info_check" id="mall_info" type="checkbox" name="contest[newsletter]"> 
                     Would you like to receive event and promotional information from the CORE?
                 </label>
                 <label>
-                    <input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]">
+                    <input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]"> 
                     Would you like to receive event and promotional information from Royal Oak Audi?
+                </label>
+                <label>
+                    <input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]"> 
+                    I agree to the rules and regulations
                 </label>
             </div>
         </div>
