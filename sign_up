@@ -112,9 +112,8 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        
         loadMallDataCached(renderAll); 
-    })
+    });
     
     function renderAll(){
         $('#subForm').submit(function(){
