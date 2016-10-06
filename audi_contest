@@ -22,7 +22,7 @@
             <div class="col-md-12 text-center">
                 <img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/jpeg/1475767743000/CORE_FYD_OnWhite.jpeg" class="" alt="">
                 
-                <img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/jpeg/1475766448000/Audi logo.jpeg" class="" alt="">
+                <img style="max-width: 200px;margin-top: -50px;" src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/jpeg/1475766448000/Audi logo.jpeg" class="" alt="audi royal oak">
             </div>
             <div class="col-md-6">
                 <label for="first_name">First Name *</label> 
