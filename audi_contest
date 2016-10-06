@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-6">
                 <label for="postal_code">Postal Code *</label> 
-                <input  type="text" required  title="Postal Code" class="custom_form_control_xmas" id="postal_code" name="contest[postal_code]" placeholder="Last Name" />
+                <input  type="text" required  title="Postal Code" class="custom_form_control_xmas" id="postal_code" name="contest[postal_code]" placeholder="Postal Code" />
             </div>
             
         </div>
