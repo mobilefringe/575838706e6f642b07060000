@@ -8,26 +8,23 @@
         <h3>REGISTRY</h3>
     </div>
 </div>
-<div id="contest_container">
-    <script id="contest_template" type="x-tmpl-mustache/text">
-        <div class="store_list_head main_container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h5 class="active_heading mobile_underline">CORE CONTEST: {{name}}</h5>
-                </div>
-            </div>
-            
+<div class="store_list_head main_container">
+    <div class="row">
+        <div class="col-md-5">
+            <h5 class="active_heading mobile_underline">CORE CONTEST: {{name}}</h5>
         </div>
-        <div class="main_container content_container margin_25_across padding_xmas">
-            <form action="http://mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="subForm">
-                <div class="row margin_60">
-                    <div class="col-md-12 text-center">
-                        
-                </div>
-            </form>
-        </div>
-    </script>
+    </div>
+    
 </div>
+<div class="main_container content_container margin_25_across padding_xmas">
+    <form action="http://mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="subForm">
+        <div class="row margin_60">
+            <div class="col-md-12 text-center">
+                
+        </div>
+    </form>
+</div>
+
 <script>
     $(document).ready(function(e){
         init(e);
@@ -38,7 +35,6 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var contestDetails = getContestBySlug(slug);
-        
         show_content();
     }
     
