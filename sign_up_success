@@ -60,8 +60,12 @@
 <script>
     $(document).ready(function(e){
         init(e);
+        loadMallDataCached(renderAll); 
+    });
+    
+    function renderAll(){
         show_content()
-    })
+    }
     
 
 </script>
