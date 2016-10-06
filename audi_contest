@@ -20,45 +20,7 @@
     <form action="http://mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="subForm">
         <div class="row margin_60">
             <div class="col-md-12 text-center">
-                <h3 class="christmas_header">Find<br />Christmas<br />Downtown</h3>
-                <img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/png/1475603956000/Screen_Shot_2016-09-30_at_11.05.29_AM.png" class="" alt="">
-                <br /><br />
-            </div>
-            <div class="col-md-6">
-                <label for="first_name">First Name *</label> 
-                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="first_name" placeholder="First Name" />
-                <input id="full_name" name="cm-name" type="hidden" />
-            </div>
-            <div class="col-md-6">
-                <label for="last_name">Last Name *</label> 
-                <input  type="text" required  title="Last Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
-            </div>
-            <div class="col-md-6">
-                <label for="company_name">Company Name *</label> 
-                <input  type="text" required  title="Company Name" class="custom_form_control_xmas" id="company_name" name="cm-f-hhutki" placeholder="Company Name" />
-            </div>
-            <div class="col-md-6">
-                <label for="company_address">Company Address *</label> 
-                <input  type="text" required  title="Company Address" class="custom_form_control_xmas" id="company_address" name="cm-f-hhutkd" placeholder="Company Address" />
-            </div>
-            <div class="col-md-6">
-                <label for="email">Contact Email *</label>
-                <input id="email" name="cm-bljbh-bljbh" type="email" required class="custom_form_control_xmas" placeholder="Contact Email" />
-            </div>
-            <div class="col-md-6">
-                <label for="phone">Contact Phone *</label>
-                <input id="phone" name="cm-f-hhutkh" type="text" required class="custom_form_control_xmas" placeholder="Contact Phone" />
-            </div>
-            <div class="col-md-6">
-                <label for="team_members">Number of Team Members *</label>
-                <input id="team_members" name="cm-f-hhutku" type="text" required class="custom_form_control_xmas" placeholder="Number of Team Members" />
-            </div>
-            <div class="col-md-6">
-                <p class="team_members_desc">We suggest between 4-6 members per team.</p>
-            </div>
-            <div class="col-md-12 text-center">
-                <input class="newsletter_btn animated_btn" name="commit" type="submit" value="REGISTER">
-            </div>
+                
         </div>
     </form>
     <div class="row">
