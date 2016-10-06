@@ -21,14 +21,17 @@
         <div class="row margin_60">
             <div class="col-md-12 text-center">
                 <img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/jpeg/1475767743000/CORE_FYD_OnWhite.jpeg" class="" alt="core logo">
-                
                 <img style="max-width: 200px;margin-top: -50px;" src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/jpeg/1475766448000/Audi logo.jpeg" class="" alt="audi royal oak">
             </div>
             <div class="col-md-6">
                 <label for="first_name">First Name *</label> 
                 <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="first_name" placeholder="First Name" />
-                <input id="full_name" name="cm-name" type="hidden" />
             </div>
+            <div class="col-md-6">
+                <label for="last_name">First Name *</label> 
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
+            </div>
+            
         </div>
     </form>
 </div>
