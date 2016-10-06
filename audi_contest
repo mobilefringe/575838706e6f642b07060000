@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-6">
                 <label for="phone">Phone Number *</label> 
-                <input  type="text" required  title="Phone" class="custom_form_control_xmas" id="phone" name="contest[phone]" placeholder="Phone" />
+                <input  type="text" required  title="Phone" class="custom_form_control_xmas" id="phone" name="contest[phone]" placeholder="Phone Number" />
             </div>
             <div class="col-md-6">
                 <label for="postal_code">Postal Code *</label> 
