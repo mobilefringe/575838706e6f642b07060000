@@ -43,6 +43,16 @@
                 <label for="email">Email Address *</label> 
                 <input  type="text" required  title="Email Address" class="custom_form_control_xmas" id="email" name="contest[email]" placeholder="Email Address" />
             </div>
+            <div class="col-md-12">
+                <label>
+                    <input class="info_check" id="mall_info" type="checkbox" name="contest[newsletter]">
+                    Would you like to receive event and promotional information from the CORE?
+                </label>
+                <label>
+                    <input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]">
+                    Would you like to receive event and promotional information from Royal Oak Audi?
+                </label>
+            </div>
         </div>
     </form>
 </div>
