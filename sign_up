@@ -116,6 +116,7 @@
            $('#full_name').val($('#first_name').val() + " " + $('#last_name').val());
         });
         show_content()
+        loadMallDataCached(renderAll); 
     })
     
 
