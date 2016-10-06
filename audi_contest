@@ -25,11 +25,11 @@
             </div>
             <div class="col-md-6">
                 <label for="first_name">First Name *</label> 
-                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="first_name" placeholder="First Name" />
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="contest[first_name]" placeholder="First Name" />
             </div>
             <div class="col-md-6">
                 <label for="last_name">Last Name *</label> 
-                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="last_name" name="contest[last_name]" placeholder="Last Name" />
             </div>
             <div class="col-md-6">
                 <label for="last_name">Last Name *</label> 
@@ -37,7 +37,7 @@
             </div>
             <div class="col-md-6">
                 <label for="phone">Phone Number *</label> 
-                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="phone" name="phone" placeholder="Last Name" />
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="phone" name="contest[phone]" placeholder="Last Name" />
             </div>
             <div class="col-md-6">
                 <label for="last_name">Last Name *</label> 
