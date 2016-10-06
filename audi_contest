@@ -40,8 +40,8 @@
                 <input  type="text" required  title="Postal Code" class="custom_form_control_xmas" id="postal_code" name="contest[postal_code]" placeholder="Postal Code" />
             </div>
             <div class="col-md-6">
-                <label for="postal_code">Postal Code *</label> 
-                <input  type="text" required  title="Postal Code" class="custom_form_control_xmas" id="postal_code" name="contest[email]" placeholder="Postal Code" />
+                <label for="email">Email Address *</label> 
+                <input  type="text" required  title="Email Address" class="custom_form_control_xmas" id="email" name="contest[email]" placeholder="Email Address" />
             </div>
         </div>
     </form>
