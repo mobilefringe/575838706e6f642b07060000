@@ -31,6 +31,18 @@
                 <label for="last_name">Last Name *</label> 
                 <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
             </div>
+            <div class="col-md-6">
+                <label for="last_name">Last Name *</label> 
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
+            </div>
+            <div class="col-md-6">
+                <label for="last_name">Phone Number *</label> 
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
+            </div>
+            <div class="col-md-6">
+                <label for="last_name">Last Name *</label> 
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="last_name" name="last_name" placeholder="Last Name" />
+            </div>
             
         </div>
     </form>
