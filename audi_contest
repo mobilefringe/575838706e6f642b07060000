@@ -85,7 +85,7 @@
                 if(response.message == "duplicate_entry"){
                     alert("You have already registered today. Please come back tomorrow.")
                 }
-                else if(response == "success"){
+                else if(response.message == "success"){
                     alert("Thank you! You have registered successfully.")
                 }
             })
