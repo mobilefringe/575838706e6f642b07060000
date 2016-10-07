@@ -82,7 +82,7 @@
             e.preventDefault();
             var data = $('#contest_form').serialize();
             $.post("https://core.mallmaverick.com/contests/core-audi-contest/one_day_json_entry", data, function(response){
-                console.log(data)
+                console.log(response)
             })
         })
     });
