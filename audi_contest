@@ -53,7 +53,7 @@
                     Would you like to receive event and promotional information from Royal Oak Audi?
                 </label>
                 <label>
-                    <input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]" required> 
+                    <input class="info_check" id="vendor_info" type="checkbox" name="rules]" required> 
                     I agree to the <a href="/pages/core-rules-regulations">rules and regulations</a>
                 </label>
             </div>
