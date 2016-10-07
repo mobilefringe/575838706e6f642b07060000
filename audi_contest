@@ -82,6 +82,7 @@
             e.preventDefault();
             if ($('#rules_check').is(":checked")){
                 alert("Please agree to rules and regulations");
+                $('#rules_check').focus();
             }else{
                 var data = $('#contest_form').serialize();
                 $.post("https://core.mallmaverick.com/contests/core-audi-contest/one_day_json_entry", data, function(response){
