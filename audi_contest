@@ -88,15 +88,15 @@
                 $.post("https://core.mallmaverick.com/contests/core-audi-contest/one_day_json_entry", data, function(response){
                     $('#submit_btn').prop('disabled', false);
                     if(response.message == "duplicate_entry"){
-                        alert("You have already registered today. Please come back tomorrow.")
+                        alert("You have already registered today. Please come back tomorrow.");
                         $('#contest_form').trigger('reset');
                     }
                     else if(response.message == "success"){
-                        alert("Thank you! You have registered successfully.")
+                        alert("Thank you! You have registered successfully.");
                         $('#contest_form').trigger('reset');
                     }
                     else{
-                        alert("An error occurred while processing your request. Please try again.")
+                        alert("An error occurred while processing your request. Please try again.");
                     }
                 });
             }
