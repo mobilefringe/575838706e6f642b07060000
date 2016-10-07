@@ -80,7 +80,6 @@
         
         $('#contest_form').submit(function(e){
             e.preventDefault();
-            alert("herer")
             var data = $('#contest_form').serialize();
             $.post("https://core.mallmaverick.com/contests/core-audi-contest/one_day_json_entry", data, function(data){
                 console.log(data)
