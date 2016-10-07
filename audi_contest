@@ -80,7 +80,7 @@
         
         $('#contest_form').submit(function(e){
             e.preventDefault();
-            if ($('#rules_check').is(":checked")){
+            if ($('#rules_check').is(":checked") == false){
                 alert("Please agree to rules and regulations");
                 $('#rules_check').focus();
             }else{
