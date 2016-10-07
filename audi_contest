@@ -86,7 +86,7 @@
                     alert("You have already registered today. Please come back tomorrow.")
                 }
                 else if(response == "success"){
-                    alert("You hvae registered succesfully")
+                    alert("Thank you! You have registered successfully.")
                 }
             })
         })
