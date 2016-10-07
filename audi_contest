@@ -17,7 +17,7 @@
     
 </div>
 <div class="main_container content_container margin_25_across padding_xmas">
-    <form action="http://mobilefringe.createsend.com/t/d/s/bljbh/" method="post" id="contest_form">
+    <form id="contest_form">
         <div class="row margin_60">
             <div class="col-md-12 text-center">
                 <img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/jpeg/1475767743000/CORE_FYD_OnWhite.jpeg" class="" alt="core logo">
@@ -76,15 +76,15 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        loadMallDataCached(renderAll); 
+        show_content();
+        
+        $('#contest_form').submit(function(e){
+            e.preventDefault();
+            var data = $('#contest_form').serialize();
+            $.post("https://core.mallmaverick.com/contests/core-audi-contest/one_day_json_entry", data)
+        })
     });
     
-    function renderAll(){
-        var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
-        var contestDetails = getContestBySlug(slug);
-        show_content();
-    }
     
 
 </script>
