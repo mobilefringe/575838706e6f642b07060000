@@ -54,7 +54,7 @@
                 </label>
                 <label>
                     <input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]"> 
-                    I agree to the rules and regulations
+                    I agree to the <a href="/pages/core-rules-regulations"></a>rules and regulations</a>
                 </label>
             </div>
             <div class="col-md-12 text-center">
