@@ -58,6 +58,9 @@
                 </label>
             </div>
             <div class="col-md-12 text-center">
+                <p>Gain additional entries <b>with every !00 you spend at participating CORE retailers!</b></p>
+            </div>
+            <div class="col-md-12 text-center">
                 <input class="newsletter_btn animated_btn" name="commit" type="submit" value="REGISTER">
             </div>
         </div>
