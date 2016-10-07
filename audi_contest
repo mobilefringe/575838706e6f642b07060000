@@ -85,6 +85,9 @@
                 if(response == "duplicate_entry"){
                     alert("You have already registered today. Please come back tomorrow.")
                 }
+                else if(response == "success"){
+                    alert("You hvae registered succesfully")
+                }
             })
         })
     });
