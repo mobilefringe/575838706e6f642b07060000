@@ -76,8 +76,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        show_content();
-        
+        loadMallDataCached(renderAll); 
         $('#contest_form').submit(function(e){
             $('#submit_btn').prop('disabled', true);
             e.preventDefault();
@@ -99,6 +98,10 @@
         })
     });
     
+    function renderAll(){
+        
+        show_content();
+    }
     
 
 </script>
