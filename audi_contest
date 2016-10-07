@@ -89,9 +89,14 @@
                     $('#submit_btn').prop('disabled', false);
                     if(response.message == "duplicate_entry"){
                         alert("You have already registered today. Please come back tomorrow.")
+                        $('#contest_form').trigger('reset');
                     }
                     else if(response.message == "success"){
                         alert("Thank you! You have registered successfully.")
+                        $('#contest_form').trigger('reset');
+                    }
+                    else{
+                        alert("An error occurred while processing your request. Please try again.")
                     }
                 });
             }
