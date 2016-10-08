@@ -208,7 +208,7 @@
                     $('#matthew_link').click(function(e){
                         console.log("here")
                         var url = $(this).attr("href");
-                        _ga.push(['_trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
+                        ga.push(['_trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
                     });
                 });
             </script>
