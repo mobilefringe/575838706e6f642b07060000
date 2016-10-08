@@ -199,6 +199,20 @@
             <p class="newsletter_desc"><span>•</span> Breaking Fashion News<br class="show_phone" /><span>•</span> Style Tips & Advice  <br class="show_phone" /><span>•</span> Exclusive Events</p>
             <a href="/newsletter" class="newsletter_btn animated_btn">JOIN US</a>
         </div>
+        <div style="display:block;text-align:center">
+            <a href="http://humanitariancoalition.ca/20vic" target="_blank" id="matthew_link">
+                <img src="//mallmaverick.com/system/site_images/photos/000/022/451/original/img1.jpg?1475947720" />
+            </a>
+            <script>
+                $(document).ready(function(e){
+                    $('#matthew_link').click(function(e){
+                        console.log("here")
+                        var url = $(this).attr("href");
+                        _gaq.push(['_trackEvent', 'Outbound Links', e.currentTarget.host, url, 0]);
+                    });
+                });
+            </script>
+        </div>
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4">
