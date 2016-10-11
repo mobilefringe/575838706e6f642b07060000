@@ -93,7 +93,7 @@ function show_content(){
     
     $('.show_snapchat').click(function(e){
         e.preventDefault();
-        
+        alert("er")
         $('body').addClass('no_scroll');
     });
 }
