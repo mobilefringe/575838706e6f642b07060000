@@ -90,6 +90,11 @@ function show_content(){
     if (contests_exist == false){
         // $('.contest_link').hide()
     }
+    
+    $('.show_snapchat').click(e){
+        e.preventDefault();
+        $('<div class="modal-backdrop custom_backdrop"><img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/png/1476222768000/3399055_SnapchatIcon[2][1].png" class="" alt=""></div>').appendTo(document.body);
+    }
 }
 
 function show_cat_stores(){
