@@ -91,6 +91,13 @@ function show_content(){
         // $('.contest_link').hide()
     }
     
+    $('.show_snapchat').click(function(e){
+        e.preventDefault();
+        $('<div class="modal-backdrop sc_backdrop"><img src="http://assets.codecloudapp.com/sites/57b338c76e6f642abb010000/image/png/1476222768000/3399055_SnapchatIcon[2][1].png" class="" alt=""></div>').appendTo(document.body);
+        $('.sc_backdrop').click(function(e){
+            $(".modal-backdrop").remove();
+        })
+    });
     
 }
 
