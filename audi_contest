@@ -1,0 +1,112 @@
+<style>
+    .newsletter_container{
+        display:none;
+    }
+</style>
+<div id="store_container">
+    <div class="main_banner text-center">
+        <h3>REGISTRY</h3>
+    </div>
+</div>
+<div class="store_list_head main_container">
+    <div class="row">
+        <div class="col-md-5">
+            <h5 class="active_heading mobile_underline">CORE CONTEST: AUDI A4</h5>
+        </div>
+    </div>
+    
+</div>
+<div class="main_container content_container margin_25_across padding_xmas">
+    <form id="contest_form">
+        <div class="row margin_60">
+            <div class="col-md-12 text-center">
+                <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1475767743000/CORE_FYD_OnWhite.jpeg" class="" alt="core logo">
+                <img style="max-width: 200px;margin-top: -50px;" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1475766448000/Audi logo.jpeg" class="" alt="audi royal oak">
+            </div>
+            <div class="col-md-6">
+                <label for="first_name">First Name *</label> 
+                <input  type="text" required  title="First Name" class="custom_form_control_xmas" id="first_name" name="contest[first_name]" placeholder="First Name" />
+            </div>
+            <div class="col-md-6">
+                <label for="last_name">Last Name *</label> 
+                <input  type="text" required  title="Last Name" class="custom_form_control_xmas" id="last_name" name="contest[last_name]" placeholder="Last Name" />
+            </div>
+            <div class="col-md-6">
+                <label for="phone">Phone Number *</label> 
+                <input  type="text" required  title="Phone" class="custom_form_control_xmas" id="phone" name="contest[phone]" placeholder="Phone Number" />
+            </div>
+            <div class="col-md-6">
+                <label for="postal_code">Postal Code *</label> 
+                <input  type="text" required  title="Postal Code" class="custom_form_control_xmas" id="postal_code" name="contest[postal_code]" placeholder="Postal Code" />
+            </div>
+            <div class="col-md-6">
+                <label for="email">Email Address *</label> 
+                <input  type="email" required  title="Email Address" class="custom_form_control_xmas" id="email" name="contest[email]" placeholder="Email Address" />
+            </div>
+            <div class="col-md-12 labels">
+                <label>
+                    <input class="info_check" id="mall_info" type="checkbox" name="contest[newsletter]"> 
+                    Would you like to receive event and promotional information from the CORE?
+                </label>
+                <label>
+                    <input class="info_check" id="vendor_info" type="checkbox" name="contest[get_vendor_info]"> 
+                    Would you like to receive event and promotional information from Royal Oak Audi?
+                </label>
+                <label>
+                    <input class="info_check" id="rules_check" type="checkbox" name="rules" required> 
+                    I agree to the <a href="/pages/core-rules-regulations">rules and regulations</a>
+                </label>
+            </div>
+            <div class="col-md-12 text-center">
+                <p>Gain additional entries <b>with every $100 you spend</b> at participating CORE retailers!</p>
+                <p>Thank you to our media partners CTV and Virgin Radio.</p>
+            </div>
+            <div class="col-md-12 text-center">
+                <input class="newsletter_btn animated_btn" id="submit_btn" name="commit" type="submit" value="REGISTER">
+            </div>
+            <div class="col-md-12 text-center">
+                <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1475869558000/VIRGIN.jpeg" class="partner_logo" alt="logo virgin radio">
+                <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/gif/1475869566000/CTV_3D_LOGO_ON_AIR.gif" class="partner_logo" alt="logo CTV">
+                <p class="text-left">Contest closes December 11, 2016 at 11:59PM Mountain Standard Time. Draw date is December 12, 2016. Draw date is subject to change. Persons may enter up to one time per day at coreshopping.ca/audi_contest and may receive additional ballots for every $100 spent at participating CORE retailers. You Could Win a One Year - Lease of a 2017 Audi A4 from Audi Royal Oak and the rental of a parking spot in the CORE parkade at zero cost for one year. Prize awarded as is, no substitutions, no cash value. Vehicle may not be exactly as shown. Winner must comply with lease rules of 20,000 kms per year. Winner will be charged 20 cents per kilometer for each km over the limit. The vehicle must be returned with normal wear and tear as per Audi Canada lease Guidelines. Winner will be charged for any excess wear, damage and/or detailing costs, if required. The CORE reserves the right to terminate the parking spot rental at any time for any reason. All other contest rules and regulations available at <a href="/pages/core-rules-regulations">coreshopping.ca/pages/core-rules-regulations</a></p>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderAll); 
+        $('#contest_form').submit(function(e){
+            $('#submit_btn').prop('disabled', true);
+            e.preventDefault();
+            if ($('#rules_check').is(":checked") == false){
+                alert("Please agree to rules and regulations");
+                $('#rules_check').focus();
+            }else{
+                var data = $('#contest_form').serialize();
+                $.post("//core.mallmaverick.com/contests/core-audi-contest/one_day_json_entry", data, function(response){
+                    $('#submit_btn').prop('disabled', false);
+                    if(response.message == "duplicate_entry"){
+                        alert("You have already registered today. Please come back tomorrow.");
+                        $('#contest_form').trigger('reset');
+                    }
+                    else if(response.message == "success"){
+                        alert("Thank you! You have registered successfully.");
+                        $('#contest_form').trigger('reset');
+                    }
+                    else{
+                        alert("An error occurred while processing your request. Please try again.");
+                    }
+                });
+            }
+        })
+    });
+    
+    function renderAll(){
+        
+        show_content();
+    }
+    
+
+</script>
