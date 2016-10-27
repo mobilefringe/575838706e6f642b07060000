@@ -1,0 +1,69 @@
+<div class="jobs_banner text-center">
+    <h3>CORE CHRISTMAS</h3>
+    <!--<p>explore • enjoy • shop</p>-->
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-3">
+            <h5><a href="/promotions">PROMOTIONS</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5><a href="/events">EVENTS</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5 class="active_heading">CORE CHRISTMAS</h5>
+        </div>
+        <div class="col-md-3 text-right">
+            <h5 class="contest_link"><a href="/contests">CONTESTS</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <<option value="/promotions">Promotions</option>
+            <option value="/events">Events</option>
+            <option class="contest_link" value="/contests">Contests</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding pages_text">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+             <h3 class="hours_heading text-center">Thank You For Your Interest in Find Christmas Downtown</h3>
+                <p class="margin_20">All of our trees are currently taken, however we still invite you to join us for
+exclusive entertainment, tree lighting ceremony and
+one-night only experiences on November 24th, 2016 from 4pm – 9pm.</p>
+ <p class="margin_20">
+Please also add your name to the Wait List and should a tree come available we will contact you.</p>
+<p class="margin_20">
+You will also be added to our distribution list for next year’s event.</p>
+<br>
+                <div id="mm_page_content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            prefix = get_prefix();
+            var pages_json = prefix+ "/pages/core-resolve.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_title').html(data.title.toUpperCase());
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    })
+</script>
