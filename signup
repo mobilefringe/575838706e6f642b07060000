@@ -121,7 +121,7 @@
            var contest_data ={};
            var contest = {};
            contest.first_name = $('#first_name').val();
-           contest.last_name = $('#first_name').val();
+           contest.last_name = $('#last_name').val();
            contest.email = $('#email').val();
            contest.mailing_address = $('#company_address').val();
            contest.phone = $('#phone').val();
