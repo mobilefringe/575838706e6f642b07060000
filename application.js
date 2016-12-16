@@ -32,7 +32,7 @@ function renderStoreList(container, template, collection, starter, breaker){
         else{
             val.promotion_exist = "display:none";
         }
-        if (val.jobs.length > 0){
+        if (val.jobs != null){
             val.job_exist = "display:inline-block";
         }
         else{
