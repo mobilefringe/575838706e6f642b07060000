@@ -216,7 +216,7 @@ function renderPromoDetails(container, template, collection, centre){
         }
         
         if ((val.store_image) == null){
-            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/undefined/corelogo.png";
+            val.store_image = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/undefined/corelogo.png";
         } 
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
