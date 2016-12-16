@@ -215,6 +215,10 @@ function renderPromoDetails(container, template, collection, centre){
             val.image_url  = "//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
+        if ((val.store_image) == null){
+            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/undefined/corelogo.png";
+        } 
+        
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
