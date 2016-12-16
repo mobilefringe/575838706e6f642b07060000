@@ -26,7 +26,7 @@ function renderStoreList(container, template, collection, starter, breaker){
             store_initial = current_initial;
             val.show = "display:block;";
         }
-        if (val.promotions.length > 0){
+        if (val.promotions != null){
             val.promotion_exist = "display:inline-block";
         }
         else{
