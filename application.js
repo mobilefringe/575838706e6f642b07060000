@@ -72,7 +72,7 @@ function renderStoreDetails(container, template, collection, slug){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if ((val.store_front_url).indexOf('missing.png') > -1){
+        if ((val.store_front_url) == null){
             val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/undefined/corelogo.png";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
