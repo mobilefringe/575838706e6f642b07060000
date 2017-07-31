@@ -62,8 +62,23 @@
     $(document).ready(function(e) {
         init(e);
         function renderPageData(){
-            renderEventsWithImgTemplate('#event_item_template','#events_list','#events_not_empty_section','#events_empty_section',getEventsList(), "contests");
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var contest_details = getContestBySlug(slug);
+            renderContest("#contest_container", '#contest_template', contest_details)
+
+            init_side();
+            
             show_content();
+            
+            $.validate();
+            
+            $('#contest_form').submit(function(e){
+                e.preventDefault();
+                $('.contest_btn').prop('disabled', true);
+                submit_contest(slug);
+                $('html, body').animate({scrollTop : 0},800);
+            });
         }
         loadMallDataCached(renderPageData);
     });
