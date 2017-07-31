@@ -83,14 +83,14 @@
                                     <div class="col-md-12">
                                         <label class="agree">
                                             <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="10"/> 
-                                            Yes, I would like to receive information about events and promotions from {{property_name}}.
+                                            Yes, I would like to receive information about events and promotions from The CORE.
                                         </label>
                                         <br/><br/>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <a href="/pages/midtown2-contest-rules" target="_blank" tabindex="11">Contest Rules & Regulations</a> | <a href="/pages/midtown2-privacy-policy" target="_blank" tabindex="12">Privacy Policy</a>
+                                        <a href="/pages/midtown2-contest-rules" target="_blank" tabindex="11">Click here</a> to view the rules and regulations.
                                         <br/><br/>
                                         <button class="contest_btn" tabindex="13">Submit</button>
                                         <br/><br/>
