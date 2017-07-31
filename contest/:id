@@ -41,6 +41,7 @@
                                 <div class="event-description">
                                     {{{ rich_description }}}
                                 </div>
+                                <br>
                             </div> 
                             <form id="contest_form">
                                 <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
