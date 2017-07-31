@@ -40,9 +40,7 @@
                                 <div class="event-name">
                                     <h3>{{ name }}</h3>
                                 </div>
-                                <div class="event-dates">
-                                    {{dates}}
-                                </div>
+                                
                                 <hr>
                                 <div class="event-description">
                                     {{{ rich_description }}}
@@ -117,6 +115,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contest_details = getContestBySlug(slug);
+            console.log(contest_details)
             renderContest("#contest_container", '#contest_template', contest_details)
 
             // init_side();
