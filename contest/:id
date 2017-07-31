@@ -80,21 +80,10 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    
-                                    
-                                </div>
-                                <div class="row ">
-                                    
-                                </div>
-                                <div class="row">
                                     <div class="col-md-12">
-                                        <label class="agree contest_rules">
-                                            <input id="agree_terms" type="checkbox" name="contest[rules]" required data-validation="required" tabindex="9"/> 
-                                            I have read and understand the Contest Rules & Regulations as well as the Privacy Policy.
-                                        </label>
                                         <label class="agree">
                                             <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="10"/> 
-                                            I agree to receive newsletters from {{property_name}}. You can unsubscribe anytime.
+                                            Yes, I would like to receive information about events and promotions from {{property_name}}.
                                         </label>
                                         <br/><br/>
                                     </div>
