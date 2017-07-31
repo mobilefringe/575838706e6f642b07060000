@@ -67,7 +67,7 @@
             var contest_details = getContestBySlug(slug);
             renderContest("#contest_container", '#contest_template', contest_details)
 
-            init_side();
+            // init_side();
             
             show_content();
             
