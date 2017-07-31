@@ -53,36 +53,36 @@
                                 <input type="hidden" name="cm-name" id="cm-name" />
                                 <div class="row ">
                                     <div class="col-md-4 margin_30">
-                                        <label for="first_name">*First Name</label>  
+                                        <label for="first_name">First Name</label>  
                                         <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="last_name">*Last Name</label>  
+                                        <label for="last_name">Last Name</label>  
                                         <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="phone">*Telephone</label>  
-                                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="7"/>    
+                                        <label for="phone">Phone Number</label>  
+                                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <label for="postal_code">*Postal Code</label>  
-                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="6"/>
+                                        <label for="postal_code">Postal Code</label>  
+                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
                                     </div>
                                     <div class="col-md-4">
                                         <label for="city">City</label>  
-                                        <input class="form-control" id="city" name="contest[city]" type="text" tabindex="4"/>    
+                                        <input class="form-control" id="city" name="contest[city]" type="text" tabindex="5"/>    
                                     </div>
                                     <div class="col-md-4">
                                         <label for="email">*Email</label> 
-                                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="8"/>
+                                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label class="agree">
-                                            <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="10"/> 
+                                            <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
                                             Yes, I would like to receive information about events and promotions from The CORE.
                                         </label>
                                         <br/><br/>
@@ -90,9 +90,9 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <a href="/pages/midtown2-contest-rules" target="_blank" tabindex="11">Click here</a> to view the rules and regulations.
+                                        <a href="/pages/core-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
                                         <br/><br/>
-                                        <button class="contest_btn" tabindex="13">Submit</button>
+                                        <button class="contest_btn" tabindex="9">Submit</button>
                                         <br/><br/>
                                         <br/><br/>
                                     </div>
