@@ -190,20 +190,18 @@ function renderPromoDetails(container, template, collection, centre){
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:block";
                 val.website = store_details.website
-            }
-            else{
+            } else {
                 val.show = "display:none";
             }
+            
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:block";
                 val.phone = store_details.phone
-            }
-            else{
+            } else {
                 val.phone_show = "display:none";
                 val.show = "display:none";
             }
-        }
-        else{
+        } else {
             val.store_name = mall_name;
             val.store_image = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1489502857000/corelogo2.png";
             val.store_show = "display:none";
@@ -225,8 +223,7 @@ function renderPromoDetails(container, template, collection, centre){
         var end = moment(val.end_date).tz(site_json.time_zone);
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMMM DD")
-        }
-        else{
+        } else {
             val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         
@@ -248,8 +245,7 @@ function renderEvents(container, template, collection, centre){
             val.store_name = store_details.name;
             val.image_url = store_details.store_front_url_abs;
             val.cat_list = store_details.categories.join(',')
-        }
-        else{
+        } else {
             val.store_name = centre;
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
@@ -260,8 +256,7 @@ function renderEvents(container, template, collection, centre){
         
         if(val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
-        }
-        else{
+        } else {
             val.description_short = val.description
         }
         
