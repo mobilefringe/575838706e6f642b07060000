@@ -50,7 +50,7 @@
     $(document).ready(function(e) {
         init(e);
         function renderPageData(){
-            var post = getBlogByName("Shop The Look")[0];
+            var post = getBlogByName("Shop The Look");
             renderPostDetailTemplate('#blog_detail_template', '#blog_detail', post);
             show_content();
         }
