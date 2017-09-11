@@ -110,17 +110,16 @@
             var today_hours = getTodaysHours();
             renderHomeHours('#home_hours_container2', '#home_hours_template2', today_hours)   
             show_content();
-            // if($.cookie("popup_viewed") != "true"){
-            //     $.cookie("popup_viewed", "true", { expires: 1 });
+            if($.cookie("popup_viewed") != "true"){
+                $.cookie("popup_viewed", "true", { expires: 1 });
                 var popup = getPopups()[0];
-                console.log(popup)
                 if (popup != undefined){
                     $('.popup_home a').attr('href', popup.photo_link)
                     $('.popup_home img').attr('src', '//mallmaverick.cdn.speedyrails.net' + popup.photo_url)
                     $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body);
                     $('.popup_home').show()
                 }
-            // }
+            }
             $('.close_popup, .custom_backdrop').click(function(){
                 $(".modal-backdrop").remove();
 		        $(".popup_home").remove();
