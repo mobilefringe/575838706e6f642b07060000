@@ -56,19 +56,16 @@
         }
         
         function renderPostDetailTemplate(blog_template, blog_block, post){
-    
             var item_list = [];
             var blog_template_html = $(blog_template).html();
             Mustache.parse(blog_template_html);   // optional, speeds up future uses
         
-           
             var blog_rendered = Mustache.render(blog_template_html,post);
             item_list.push(blog_rendered);
            
-        
             $(blog_block).html(item_list.join(''));
         }
-        loadMallData(renderPageData);
         
+        loadMallData(renderPageData);
     });
 </script>
