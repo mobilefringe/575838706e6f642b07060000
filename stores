@@ -81,14 +81,21 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var categories = getStoreCategories();
             var stores = getStoresList(); 
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "M");
             renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
-            renderGeneral('#category_container', '#category_template', categories);
             
-            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            var categories = getStoreCategories();
+            var category_list = [];
+            $.each( categories, function( key, val ){
+                if (val.store_ids != null) {
+                    category_list.push(val);
+                } 
+            });
+            renderGeneral('#category_container', '#category_template', category_list);
+            renderGeneral('#mobile_cat_list', '#category_template2', category_list);
+            
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores();
             var coming_soon_stores = getComingSoonList();
