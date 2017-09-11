@@ -1,0 +1,74 @@
+<style>
+    td{
+        vertical-align: top;
+    }
+</style>
+
+<div class="jobs_banner text-center">
+    <h3>Shop The Look</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row hidden_phone">
+        <div class="col-md-4">
+            <h5><a href="/style_file">STYLE FILE</a></h5>
+        </div>
+        <div class="col-md-4 text-center">
+            <h5 class="active_heading">SHOP THE LOOK</h5>
+        </div>
+        <div class="col-md-4 text-center">
+            <h5><a href="/attract">OPPOSITES ATTRACT</a></h5>
+        </div>
+    </div>
+    <h5 class="text-center tap_here show_phone">
+        <select id="option_selector" class="link_selector">
+            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+            <option value="/style_file">Style File</option>
+            <option value="/shop_the_look">Shop The Look</option>
+            <option value="/attract">Opposites Attract</option>
+        </select>
+    </h5>
+</div>
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="blog_detail">  
+                    <script id="blog_detail_template" type="x-tmpl-mustache">
+                        <h2 class="blogpost_detail_title">{{ title }}</h2>
+                        <div class="blog_detail_description">
+                            {{{ html_body }}}
+                        </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderPageData(){
+            var post = getBlogDetailsByName("Shop The Look")[0];
+            renderPostDetailTemplate('#blog_detail_template', '#blog_detail', post);
+            show_content();
+        }
+        
+        function renderPostDetailTemplate(blog_template, blog_block, post){
+    
+            var item_list = [];
+            var blog_template_html = $(blog_template).html();
+            Mustache.parse(blog_template_html);   // optional, speeds up future uses
+        
+           
+            var blog_rendered = Mustache.render(blog_template_html,post);
+            item_list.push(blog_rendered);
+           
+        
+            $(blog_block).html(item_list.join(''));
+        }
+        loadMallData(renderPageData);
+        
+    });
+</script>
