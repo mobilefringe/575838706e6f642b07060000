@@ -150,7 +150,7 @@ function renderPromotions(container, template, collection, centre){
         if(val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
         } else {
-            val.description_short = val.description
+            val.description_short = val.description;
         }
         
         var show_date = moment(val.show_on_web_date);
@@ -161,7 +161,6 @@ function renderPromotions(container, template, collection, centre){
         } else {
             val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
-        
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
@@ -175,9 +174,8 @@ function renderPromoDetails(container, template, collection, centre){
     var template_html = $(template).html();
     Mustache.parse(template_html); 
     item_list.push(collection);
-    $.each( item_list , function( key, val ) {
-        
-        if (val.promotionable_type == "Store") {
+    $.each( item_list , function( key, val ){
+        if (val.promotionable_type == "Store"){
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
@@ -207,7 +205,7 @@ function renderPromoDetails(container, template, collection, centre){
         }
         val.image_url = val.promo_image_url_abs
         
-        if(val.image_url.indexOf('missing.png') > 0){
+        if(val.image_url.indexOf('missing.png') > 0 || val.image_url == null){
             val.image_url  = "//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
