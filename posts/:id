@@ -47,6 +47,7 @@
             renderPostDetails("#post_container", "#post_template", post);
             if(slug == "michael-kors-live-at-nyfw-2017--2"){
                 console.log("Yes!");
+                $(".promo_list_desc").css({"min-height": "600px"});
             }
             show_content();
         }
