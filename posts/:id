@@ -1,0 +1,56 @@
+<div class="main_banner text-center">
+    <h3>Core Style</h3>
+    <p>explore • enjoy • shop</p>
+</div>
+<div class="store_list_head main_container">
+    <div class="row ">
+        <div class="col-md-3">
+            <h5 class="active_heading mobile_underline">BLOG</h5>
+        </div>
+    </div>
+</div>
+ <div class="content_container main_container">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="post_container">
+                    <script id="post_template" type="x-tmpl-mustache/text">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="cropped_image">
+                                    <img src="{{image_url}}" alt="{{name}}" />
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h2 class="promo_list_name">{{title}}</h2>
+                                <p>
+                                    <span class="promo_store" style="{{author_exists}}">{{author}}</span>
+                                    <span class="promo_dates">{{published_on}}</span>
+                                </p>
+                                <div class="promo_list_desc">{{{html_body}}}</div>
+                            </div>
+                        </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var post = getPublishedPostDetailsBySlug(slug);
+            renderPostDetails("#post_container", "#post_template", post);
+            if(slug == "michael-kors-live-at-nyfw-2017--2"){
+                console.log("Yes!");
+            }
+            show_content();
+        }
+        
+		loadMallDataCached(renderAll); 
+    })
+</script>
