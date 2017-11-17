@@ -278,6 +278,7 @@ function renderEvents(container, template, collection, centre){
             item_rendered.push(rendered);
         }
     });
+    console.log(item_rendered)
     $(container).html(item_rendered.join(''));
 }
 
