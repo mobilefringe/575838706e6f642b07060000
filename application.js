@@ -274,8 +274,8 @@ function renderEvents(container, template, collection, centre){
         }
         
         // if (val.tags.length ==0){
-        //     var rendered = Mustache.render(template_html,val);
-        //     item_rendered.push(rendered);
+            var rendered = Mustache.render(template_html,val);
+            item_rendered.push(rendered);
         // }
     });
     console.log(item_rendered)
