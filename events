@@ -58,7 +58,6 @@
         init(e);
         function renderAll (){
             var promotions = getEventsList().sortBy(function(o){ return o.start_date });
-            console.log(promotions)
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
@@ -72,11 +71,9 @@
                     published_promos.push(val);
                 } 
             });
-            console.log(published_promos)
             if(published_promos.length > 0){
                 renderEvents("#promos_container","#promos_template", published_promos, "CORE");
-            }
-            else{
+            } else {
                 $('#no_promos').show()
             }
             show_content();
