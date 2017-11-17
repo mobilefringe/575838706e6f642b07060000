@@ -273,10 +273,10 @@ function renderEvents(container, template, collection, centre){
             val.dates = start.format("MMMM DD") + " - " + end.format("MMMM DD")
         }
         
-        if (val.tags.length ==0){
-            var rendered = Mustache.render(template_html,val);
-            item_rendered.push(rendered);
-        }
+        // if (val.tags.length ==0){
+        //     var rendered = Mustache.render(template_html,val);
+        //     item_rendered.push(rendered);
+        // }
     });
     console.log(item_rendered)
     $(container).html(item_rendered.join(''));
