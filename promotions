@@ -68,7 +68,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-       unction renderAll (){
+       function renderAll (){
             var published_promos = getPublishedPromotionsList().sortBy(function(o){ return o.end_date });
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
