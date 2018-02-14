@@ -1,27 +1,13 @@
-<div class="jobs_banner text-center">
-    <h3 id="mm_page_title"></h3>
+<div class="main_banner text-center">
+    <h3>Core Style</h3>
     <p>explore • enjoy • shop</p>
 </div>
 <div class="store_list_head main_container">
-    <div class="row hidden_phone">
-        <div class="col-md-4">
-            <h5 id="core-cummunity"><a href="/pages/core-cummunity">COMMUNITY</a></h5>
-        </div>
-        <div class="col-md-4 text-center">
-            <h5 id=""><a href="/pages/core-accessibility">ACCESSIBILITY</a></h5>
-        </div>
-        <div class="col-md-4">
-            <h5 id=""><a href="/consultations">CONSULTATIONS</a></h5>
+    <div class="row ">
+        <div class="col-md-3">
+            <h5 class="active_heading mobile_underline">BLOG</h5>
         </div>
     </div>
-    <h5 class="text-center tap_here show_phone">
-        <select id="option_selector" class="link_selector">
-            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/pages/core-cummunity">Community</option>
-            <option value="/pages/core-accessibility">Accessibility</option>
-            <option value="/consultations">Consultations</option>
-        </select>
-    </h5>
 </div>
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding pages_text">
