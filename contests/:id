@@ -5,21 +5,21 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-3">
+       <div class="col-md-3">
             <h5><a href="/promotions">PROMOTIONS</a></h5>
         </div>
         <div class="col-md-3 text-center">
-            <h5><a href="/events">EVENTS</a></h5>
+            <h5 class="active_heading">EVENTS</h5>
         </div>
-        
+     
         <div class="col-md-3 text-right">
-            <h5 class="active_heading">CONTESTS</h5>
+            <h5><a href="/contests">CONTESTS</a></h5>
         </div>
-    </div>
-     <div class="col-md-3 text-right">
+         <div class="col-md-3 text-right">
             <h5><a href="/contests/core-win-vip-tickets-to-ellen">ELLEN</a></h5>
         </div>
-        </div>
+    </div>
+      
         
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
