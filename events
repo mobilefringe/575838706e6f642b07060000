@@ -14,13 +14,17 @@
         <div class="col-md-4 text-right">
             <h5 class="contest_link"><a href="/contests">CONTESTS</a></h5>
         </div>
+         <div class="col-md-4 text-right">
+            <h5><a href="/contests/core-win-vip-tickets-to-ellen">ELLEN</a></h5>
+        </div>
     </div>
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/promotions">Promotions</option>
-            <option class="news_link" value="/sign_up">Core Christmas</option>
+          
             <option class="contest_link" value="/contests">Contests</option>
+             <option class="contest_link" value="/contests/core-win-vip-tickets-to-ellen">Ellen</option>
         </select>
     </h5>
 </div>
