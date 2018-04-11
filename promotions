@@ -13,6 +13,9 @@
        
         <div class="col-md-4 text-right">
             <h5 class="contest_link"><a href="/contests">CONTESTS</a></h5>
+            <div class="col-md-3 text-right">
+            <h5><a href="/contests/core-win-vip-tickets-to-ellen">ELLEN</a></h5>
+        </div>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
