@@ -9,11 +9,11 @@
             <h5><a href="/promotions">PROMOTIONS</a></h5>
         </div>
         <div class="col-md-3 text-center">
-            <h5 class="active_heading">EVENTS</h5>
+            <h5>EVENTS</h5>
         </div>
      
         <div class="col-md-3 text-right">
-            <h5><a href="/contests">CONTESTS</a></h5>
+            <h5 class="active_heading"><a href="/contests">CONTESTS</a></h5>
         </div>
          <div class="col-md-3 text-right">
             <h5><a href="/contests/core-win-vip-tickets-to-ellen">ELLEN</a></h5>
