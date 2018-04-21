@@ -22,7 +22,7 @@
             <option value="/promotions">Promotions</option>
           
             <option class="contest_link" value="/contests">Contests</option>
-             <option class="contest_link" value="/contests/core-win-vip-tickets-to-ellen">Ellen</option>
+        
         </select>
     </h5>
 </div>
