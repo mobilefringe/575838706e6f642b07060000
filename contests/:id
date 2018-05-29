@@ -96,6 +96,9 @@
                 $(container).show();
                 $(container).html(item_rendered.join(''));
             }
+            else {
+                $("#events_empty_section").show();
+            }
         }
 
         loadMallDataCached(renderPageData);
