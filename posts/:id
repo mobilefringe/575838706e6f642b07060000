@@ -36,7 +36,11 @@
         </div>
     </div>
 </div>
-
+<style>
+    .promo_item img {
+        border: 1px solid #eee;
+    }
+</style>
 <script>
     $(document).ready(function(e){
         init(e);
