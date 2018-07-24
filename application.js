@@ -612,12 +612,11 @@ function renderPosts(container, template, collection){
     var counter = 1;
     Mustache.parse(template_html);   // optional, speeds up future uses
     $.each( collection , function( key, val ) {
-        // if (val.image_url.indexOf('missing.png') > -1) {
-        //     // val.post_image = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1489502857000/corelogo2.png";
-        //     val.image_url = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1489502857000/corelogo2.png"
-        // } else {
-        //     val.post_image = val.image_url;
-        // }
+        if (val.image_url.indexOf('missing.png') > -1) {
+            val.post_image = "//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1489502857000/corelogo2.png";
+        } else {
+            val.post_image = val.image_url;
+        }
         if(val.body.length > 100){
             val.description_short = val.body.substring(0,100) + "...";
         }
