@@ -37,7 +37,7 @@
     </div>
 </div>
 <style>
-    .promo_item img {
+    .cropped_image img {
         border: 1px solid #eee;
     }
 </style>
