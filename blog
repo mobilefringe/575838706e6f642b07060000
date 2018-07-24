@@ -19,7 +19,7 @@
                         <div class="row promo_item hidden_now" id="show_{{counter}}">
                             <div class="col-md-4">
                                 <div class="cropped_image">
-                                    <img src="{{image_url}}" alt="{{name}}" />
+                                    <img src="{{post_image}}" alt="{{name}}" />
                                 </div>
                             </div>
                             <div class="col-md-8">
