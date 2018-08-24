@@ -209,6 +209,7 @@
                     </p>
                     <a href="/hours" class="holiday_hours_home soft_hidden_phone">SEE MORE HOURS</a>
                 </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 show_phone"></div>
                 <div class="col-md-4 padding_0 col-xs-4 text-center">
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1488391599000/CORE_STH_Logo_FYD_K.jpg" class="main_logo " alt="main_logo">
