@@ -5,16 +5,16 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
        
-        <div class="col-md-4 text-center">
-            <h5 class="active_heading">ACT GREEN</h5>
+        <div class="col-md-3 text-center">
+            <h5 class="active_heading">ACT GREEN INITIATIVES</h5>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h5><a href="/accessibility">Promotions</a></h5>
         </div>
-          <div class="col-md-4 text-center">
+          <div class="col-md-3 text-center">
             <h5><a href="/services">Events</a></h5>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h5><a href="/contest">Contests</a></h5>
         </div>
     </div>
