@@ -14,6 +14,9 @@
         <div class="col-md-4 text-right">
             <h5><a href="/contests">CONTESTS</a></h5>
         </div>
+         <div class="col-md-4 text-right">
+            <h5><a href="/pages/core-act-green-initiatives">ACT Green Initiatives</a></h5>
+        </div>
          
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -23,6 +26,7 @@
             <option value="/events">Events</option>
             <option class="news_link" value="/sign_up">Core Christmas</option>
             <option class="contest_link" value="/contests">Contests</option>
+            <option class="contest_link" value="/pages/core-act-green-initiatives">ACT Green Initiatives</option>
             
         </select>
     </h5>
