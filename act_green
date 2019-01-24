@@ -9,10 +9,10 @@
             <h5 class="active_heading">ACT GREEN INITIATIVES</h5>
         </div>
         <div class="col-md-3 text-center">
-            <h5><a href="/accessibility">Promotions</a></h5>
+            <h5><a href="/promotions">Promotions</a></h5>
         </div>
           <div class="col-md-3 text-center">
-            <h5><a href="/services">Events</a></h5>
+            <h5><a href="/events">Events</a></h5>
         </div>
         <div class="col-md-3 text-center">
             <h5><a href="/contest">Contests</a></h5>
