@@ -22,8 +22,9 @@
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
        
-            <option value="/community">Community</option>
-            <option value="/accessibility">Accessibility</option>
+            <option value="/promotions">Promotions</option>
+            <option value="/events">Events</option>
+            <option value="/contests">Contests/option>
            
         </select>
     </h5>
