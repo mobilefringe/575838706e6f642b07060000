@@ -4,15 +4,18 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <h5><a href="/promotions">PROMOTIONS</a></h5>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-3 text-center">
             <h5 class="active_heading">EVENTS</h5>
         </div>
      
-        <div class="col-md-4 text-right">
+        <div class="col-md-3 text-right">
             <h5><a href="/contests">CONTESTS</a></h5>
+        </div>
+         <div class="col-md-3 text-right">
+            <h5><a href="/pages/core-act-green-initiatives">ACT Green Initiatives</a></h5>
         </div>
         
     </div>
@@ -22,6 +25,7 @@
             <option value="/promotions">Promotions</option>
           
             <option class="contest_link" value="/contests">Contests</option>
+             <option class="contest_link" value="/pages/core-act-green-initiatives">Act Green Initiatives</option>
         
         </select>
     </h5>
