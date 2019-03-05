@@ -559,7 +559,7 @@ h4{
     font-family:u8-regular;
     h5, a{
         font-size: 19px;
-        color: #787575;
+        color: #989898;
         letter-spacing: 1.5px;
         padding: 27px 0px;
         margin: 0;
@@ -1211,7 +1211,7 @@ h4{
 .promo_dates{
     font-weight:lighter;
     font-size: 16px;
-    color: #FF3355;
+    color: #e11f40;
 }
 
 .promo_store{
@@ -1578,6 +1578,9 @@ h4{
        margin-right:15px !important;
        border-bottom:1px solid #979797;
        padding-bottom: 26px !important;
+       label {
+           display: none;
+       }
     }
     .main_banner, .jobs_banner, .newsletter_banner{
         h3{
