@@ -1578,6 +1578,9 @@ h4{
        margin-right:15px !important;
        border-bottom:1px solid #979797;
        padding-bottom: 26px !important;
+       label {
+           display: none;
+       }
     }
     .main_banner, .jobs_banner, .newsletter_banner{
         h3{
