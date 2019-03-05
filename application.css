@@ -734,9 +734,9 @@ h4{
         overflow:hidden;
         float:left;
         width:100%;
+        background-color: #564d4d;
     }
     img{
-        background-color: #564d4d;
         transform: scale(1);
         transition: 500ms;
     }
