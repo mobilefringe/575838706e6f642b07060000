@@ -118,7 +118,7 @@
                     <a href="#"  class="submenu_expander">
                         CORE BLOG
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/blog">Blog</a></li>
@@ -130,7 +130,7 @@
                     <a href="#"  class="submenu_expander">
                         GUEST SERVICES
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/community">Community</a></li>
@@ -142,7 +142,7 @@
                     <a href="#" class="submenu_expander">
                         PLAN YOUR VISIT
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/parking">Parking</a></li>
@@ -154,7 +154,7 @@
                     <a href="#" class="submenu_expander">
                         CONTACT US
                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
                     </a>
                     <ul class="sub_menu hidden_now">
                     	<li><a href="/hours">Centre Hours</a></li>
