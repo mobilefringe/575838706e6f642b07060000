@@ -90,7 +90,7 @@
                     <a href="#" class="submenu_expander open">
                         STORES
                         <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: none;" alt="Open">
-						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: inline;">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: inline;" alt="close">
                     </a>
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
