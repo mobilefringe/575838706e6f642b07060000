@@ -264,15 +264,19 @@
                             </a>
                             <a href="//twitter.com/COREshopping" target="_blank">
                                 <span id="social_twitter"></span>
+                                <p>Twitter Link</p>
                             </a>
                             <a href="//www.instagram.com/coreshopping/" target="_blank">
                                 <span id="social_insta"></span>
+                                <p>Instagram Link</p>
                             </a>
                             <a href="/newsletter">
                                 <span id="social_newsletter"></span>
+                                <p>Social Newsletter Link</p>
                             </a>
                             <a href="#" class="show_snapchat">
                                 <span id="social_snapchat"></span>
+                                <p>Snapchat Link</p>
                             </a>
                             <div class="clearfix"></div>
                             <br class="hidden_phone" />
