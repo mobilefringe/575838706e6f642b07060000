@@ -260,7 +260,7 @@ a:hover, a:active, a:focus{
 }
 
 a{
-    color: #4A90E2;
+    color: #2c77ce;
 }
 
 .margin_25_across{
@@ -559,7 +559,7 @@ h4{
     font-family:u8-regular;
     h5, a{
         font-size: 19px;
-        color: #625f5f;
+        color: #787575;
         letter-spacing: 1.5px;
         padding: 27px 0px;
         margin: 0;
@@ -1211,7 +1211,7 @@ h4{
 .promo_dates{
     font-weight:lighter;
     font-size: 16px;
-    color: #e11f40;
+    color: #FF3355;
 }
 
 .promo_store{
@@ -1227,7 +1227,7 @@ h4{
 .read_more{
     font-weight:lighter;
     font-size: 16px;
-    color: #625f5f;
+    color: #989898;
     display: inline-block;
     margin-top: 10px;
     text-decoration: underline;
@@ -1578,9 +1578,6 @@ h4{
        margin-right:15px !important;
        border-bottom:1px solid #979797;
        padding-bottom: 26px !important;
-       label {
-           display: none;
-       }
     }
     .main_banner, .jobs_banner, .newsletter_banner{
         h3{
