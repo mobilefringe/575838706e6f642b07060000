@@ -3,7 +3,7 @@
     <p>explore • enjoy • shop</p>
 </div>
 <div class="margin_20"></div>
-<div class="content_container main_container">
+<div class="content_container main_container mobile_padding">
     <div class="row">
         <div class="col-md-12">
             <div id="jobs_container">
