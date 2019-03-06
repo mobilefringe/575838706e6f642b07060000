@@ -26,7 +26,6 @@
             <option value="/events">Events</option>
             <option class="contest_link" value="/contests">Contests</option>
             <option class="contest_link" value="/pages/core-act-green-initiatives">ACT Green Initiatives</option>
-            
         </select>
     </h5>
 </div>
