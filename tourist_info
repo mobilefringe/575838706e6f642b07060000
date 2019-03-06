@@ -14,7 +14,7 @@
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/tourist_info">Tourist Info</option>
+            <option value="/parking">Tourist Info</option>
         </select>
     </h5>
 </div>
