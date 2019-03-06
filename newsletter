@@ -21,7 +21,6 @@
                             <div class="col-sm-12">
                                 <label class="agree_terms">
                                     <input id="agree_terms" type="checkbox" required /> 
-                                    <span data-i18n="newsletter.agree"></span>
                                 </label>
                             </div>
                         </div>
