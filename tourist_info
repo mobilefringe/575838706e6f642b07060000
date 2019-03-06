@@ -8,7 +8,7 @@
             <h5><a href="/parking">Parking</a></h5>
         </div>
         <div class="col-md-6 text-center">
-            <h5><a href="/tourist_info">Tourist Info</a></h5>
+            <h5 class="active_heading">Tourist Info</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
