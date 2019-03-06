@@ -55,9 +55,6 @@
                     </script>
                 </div>
             </div>
-            <div id="no_promos" style="display: none">
-                <p>No promos posted</p>
-            </div>
             <div class="col-md-4">
                 <p class="category_header">Sort by Categories</p>
                 <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
@@ -66,6 +63,9 @@
                         <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
                     </script>
                 </div>
+            </div>
+            <div id="no_promos" style="display: none">
+                <p>No promos posted</p>
             </div>
         </div>
     </div>
