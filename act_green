@@ -4,10 +4,6 @@
 </div>
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
-       
-        <div class="col-md-3 text-center">
-            <h5 class="active_heading">Act Green</h5>
-        </div>
         <div class="col-md-3 text-center">
             <h5><a href="/promotions">Promotions</a></h5>
         </div>
@@ -16,6 +12,9 @@
         </div>
         <div class="col-md-3 text-center">
             <h5><a href="/contest">Contests</a></h5>
+        </div>
+        <div class="col-md-3 text-center">
+            <h5 class="active_heading">Act Green</h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
