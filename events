@@ -55,6 +55,9 @@
                     </script>
                 </div>
             </div>
+            <div id="no_promise" style="display: none;">
+                <p>No events posted</p>
+            </div>
         </div>
     </div>
 </div>
