@@ -22,7 +22,7 @@
                     </div>
                 </script>
             </div>
-            <div id="#no_jobs">
+            <div id="#no_jobs" style="display: none">
                 <p>No jobs posted</p>
             </div>
         </div>
