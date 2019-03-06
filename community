@@ -18,7 +18,6 @@
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-       
             <option value="/accessibility">Accessibility</option>
             <option value="/services">Services Offered</option>
            
