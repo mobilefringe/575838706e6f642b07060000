@@ -6,30 +6,31 @@
 <div class="content_container main_container mobile_padding">
     <p>Be the first to know! Sign up to receive the latest CORE Shopping Centre updates including contests, events and promotions.</p>
     <div class="newsletter_page">
-        <form id="subForm" class="js-cm-form" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1A12BE0816E8764536BE89530C1F182E6E9E830C3EBA3DBB6F4D1DEC73361D1D796D4AE49453B206466845B7DC63725F3B">	-->
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <label for="fieldName">Name</label>
-                                <input id="fieldName" name="cm-name" type="text" />
-                            </div>
-                            <div class="col-sm-6">
-                                <label for="fieldEmail">Email</label>
-                                <input id="fieldEmail" name="cm-idjdui-idjdui" type="email" class="js-cm-email-input" required />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <label class="agree_terms">
-                                    <input id="agree_terms" type="checkbox" required /> 
-                                </label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <button class="newsletter_btn animated_btn" type="submit">Submit</button>
-                            </div>
-                        </div>
-                    </form>
+        <form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/ykddht/" method="post">
+            <div class="floater-left">
+                <label for="cm-name">Name *</label> 
+                <br/>
+                <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
+            </div>
+            <br />
+            <div class="floater-left">
+                <label for="fieldEmail_newsletter">Email *</label> 
+                <br/>
+                <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykddht-ykddht" type="email" required />
+            </div>
+            <div style="clear:both;"></div>
+            
+            <br />
+            
+            <p style="font-size: 13px;">
+                <input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;" required>
+                <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The CORE Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="/pages/core-privacy">Privacy Terms &amp; Conditions</a>.
+                </label>
+            </p>
+            <div>     
+                <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
+            </div>
+        </form>
     </div>
 </div>
 <script type="text/javascript">
