@@ -22,7 +22,7 @@
                     </div>
                 </script>
             </div>
-            <div id="jobs_empty_section">
+            <div id="#no_jobs">
                 <p>No jobs posted</p>
             </div>
         </div>
