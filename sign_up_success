@@ -1,0 +1,69 @@
+<style>
+    .newsletter_container{
+        display:none;
+    }
+</style>
+<div id="store_container">
+    <div class="main_banner text-center">
+        <h3>REGISTRY</h3>
+    </div>
+    <div class="store_list_head main_container">
+        <div class="row hidden_phone">
+            <div class="col-md-3">
+                <h5><a href="/promotions">PROMOTIONS</a></h5>
+            </div>
+            <div class="col-md-3 text-center">
+                <h5><a href="/events">EVENTS</a></h5>
+            </div>
+            <div class="col-md-3 text-center">
+                <h5 class="active_heading">WAITING LIST</h5>
+            </div>
+            <div class="col-md-3 text-right">
+                <h5 class="contest_link"><a href="/contests">CONTESTS</a></h5>
+            </div>
+        </div>
+        <h5 class="text-center tap_here show_phone">
+            <label for="option_selector">Options</label>
+            <select id="option_selector" class="link_selector">
+                <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
+                <<option value="/promotions">Promotions</option>
+                <option value="/events">Events</option>
+                <option class="contest_link" value="/contests">Contests</option>
+            </select>
+        </h5>
+    </div>
+</div>
+<div class="main_container content_container margin_25_across padding_xmas">
+    <h1 class="thank_you_xmas">THANK YOU</h1>
+    <p class="thank_you_msg">
+       
+    </p>
+    
+ 
+     <p class="thank_you_desc" style="text-align: left;">
+	
+	Thank you for your interest in Find Christmas Downtown.
+	As of right now, we have run out of trees thanks to wonderful Calgary companies and organizations like yours. <u><strong>You have now been added to the wait list.</strong></u> Should a tree become available you will be contacted.<br />
+	<br />
+	However, you can still join in on all the fun on November 24th 2016. Come down to the CORE and see the decorations go up and the entertainment unfold. We`ll have a full evening of festivities for everyone to get in the holiday spirit. The magic begins at 4:00pm on November 24th.<br />
+	We hope to see you there.</p>
+
+
+    <p class="text-center margin_60"><a href="/stores" class="newsletter_btn animated_btn text-center">VISIT THE<br/>CORE STORES</a>
+    &nbsp;&nbsp;
+        <a href="//www.resolvecampaign.com/" class="newsletter_btn animated_btn text-center" target="_blank">LEARN MORE ABOUT RESOLVE</a>
+    </p>
+    
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderAll); 
+    });
+    
+    function renderAll(){
+        show_content()
+    }
+    
+
+</script>
