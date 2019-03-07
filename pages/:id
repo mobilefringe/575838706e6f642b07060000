@@ -11,7 +11,7 @@
             <h5 id=""><a href="/pages/core-accessibility">ACCESSIBILITY</a></h5>
         </div>
         <div class="col-md-4">
-            <h5 id=""><a href="/consultations">CONSULTATIONS</a></h5>
+            <h5 id=""><a href="/pages/services">Services Offered</a></h5>
         </div>
     </div>
     <h5 class="text-center tap_here show_phone">
@@ -20,7 +20,7 @@
             <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
             <option value="/pages/core-cummunity">Community</option>
             <option value="/pages/core-accessibility">Accessibility</option>
-            <option value="/consultations">Consultations</option>
+            <option value="/pages/services">Services Offered</option>
         </select>
     </h5>
 </div>
