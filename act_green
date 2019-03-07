@@ -23,7 +23,6 @@
             <option value="/promotions">Promotions</option>
             <option value="/events">Events</option>
             <option value="/contests">Contests</option>
-           
         </select>
     </h5>
 </div>
