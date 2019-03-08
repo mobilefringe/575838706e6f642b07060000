@@ -5,7 +5,7 @@
 <div class="store_list_head main_container">
     <div class="row hidden_phone">
         <div class="col-md-4">
-            <h5 id="core-cummunity"><a href="/pages/core-community">COMMUNITY</a></h5>
+            <h5 id="core-cummunity"><a href="/community">COMMUNITY</a></h5>
         </div>
         <div class="col-md-4 text-center">
             <h5 id=""><a href="/pages/core-accessibility">ACCESSIBILITY</a></h5>
