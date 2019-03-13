@@ -17,6 +17,7 @@
                     <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykddht-ykddht" type="email" required />
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-md-12">
                     <p style="font-size: 13px;">
