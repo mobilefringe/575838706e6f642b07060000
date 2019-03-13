@@ -9,11 +9,11 @@
         <form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/ykddht/" method="post">
             <div class="row">
                 <div class="col-md-6">
-                    <label for="cm-name">Name *</label> 
+                    <label class="form-label" for="cm-name">Name *</label> 
                     <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
                 </div>
                 <div class="col-md-6">
-                    <label for="fieldEmail_newsletter">Email *</label> 
+                    <label class="form-label" for="fieldEmail_newsletter">Email *</label> 
                     <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykddht-ykddht" type="email" required />
                 </div>
             </div>
@@ -33,7 +33,7 @@
 </div>
 
 <style>
-    label {
+    .form-label {
         display: block;
     }
     input {
