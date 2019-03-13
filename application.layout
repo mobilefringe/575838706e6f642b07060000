@@ -83,78 +83,74 @@
         <div class="opened_mobile_menu">
             <h3>
                 MENU
-                <span id="close_menu" class="pull-right"><img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166976000/close_menu.png"  alt="close"></span>        
+                <span id="close_menu" class="pull-right">
+                    <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166976000/close_menu.png"  alt="Menu Close">
+                </span>        
             </h3>
             <ul>
                 <li>
                     <a href="#" class="submenu_expander open">
                         STORES
-                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: none;" alt="open">
-						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: inline;" alt="close">
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: none;" alt="Expand Stores Menu">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: inline;" alt="Collapse Stores Menu">
                     </a>
                     <ul class="sub_menu">
 						<li><a href="/stores">Directory</a></li>
-							<li><a href="/restaurants">Restaurants</a></li>
+						<li><a href="/restaurants">Restaurants</a></li>
 						<li><a href="/map">Centre Map</a></li>
 					</ul>
-                        
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
                         WHAT'S HAPPENING
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Expand What's Happening Menu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="Collapse What's Happening Menu">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/promotions">Promotions</a></li>
 						<li><a href="/events">Events</a></li>
-					
 						<li><a href="/contests">Contests</a></li>
-							<li><a href="/pages/core-act-green-initiatives">ACT Green Initiatives</a></li>
-						
+						<li><a href="/pages/core-act-green-initiatives">ACT Green Initiatives</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
                         CORE BLOG
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Expand Core Blog Menu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="Collapse Core Blog Menu">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/blog">Blog</a></li>
-						
 					</ul>
-					
                 </li>
                 <li>
                     <a href="#"  class="submenu_expander">
                         GUEST SERVICES
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Expand Guest Services Menu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="Collapse Guest Services Menu">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/community">Community</a></li>
 						<li><a href="/accessibility">Accessibility</a></li>
-							<li><a href="/services">Services Offered</a></li>
+						<li><a href="/services">Services Offered</a></li>
 					</ul>
                 </li>
                 <li>
                     <a href="#" class="submenu_expander">
                         PLAN YOUR VISIT
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Expand Plan Your Visit Menu">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="Collapse Plan Your Visit Menu">
                     </a>
                     <ul class="sub_menu hidden_now">
 						<li><a href="/parking">Parking</a></li>
 						<li><a href="/tourist_info">Tourist Info</a></li>
-						
 					</ul>
                 </li>
                 <li>
                     <a href="#" class="submenu_expander">
                         CONTACT US
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="Collapse Contact Us Menu">>
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="Expand Contact Us Menu">
                     </a>
                     <ul class="sub_menu hidden_now">
                     	<li><a href="/hours">Centre Hours</a></li>
@@ -244,11 +240,6 @@
             <p class="newsletter_desc"><span>•</span> Breaking Fashion News<br class="show_phone" /> <span>•</span> Style Tips & Advice  <br class="show_phone" /><span>•</span> Exclusive Events <span>•</span></p>
             <a href="/newsletter" class="newsletter_btn animated_btn">JOIN US</a>
         </div>
-        <!--<div class="trim_screen">-->
-        <!--    <a id="track_link" href="https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/" target="_blank">-->
-        <!--        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/jpeg/1510252672000/Rohingya_en.jpg" alt=""/>-->
-        <!--    </a>-->
-        <!--</div>-->
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4">
@@ -316,7 +307,6 @@ Calgary, Alberta <br>T2P 2Z1
                         <br />
                         Administration: <a href="tel:403-441-4901">(403) 441-4901</a><br />
                         <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
-                            <!--<img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1464722874000/Picture1.png" class="vic_logo" alt="">-->
                             <img src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/png/1509381758000/CW Logos-_CW_Colorlogo.png" class="" alt="Cushman and Wakefield Logo" style="width:140px;padding-top: 10px;">
                         </a>
                     </p>
@@ -327,12 +317,6 @@ Calgary, Alberta <br>T2P 2Z1
             </div>
         </div>
     </section>
-    <!--<script>-->
-    <!--    $("#track_link").click( function() {-->
-    <!--        trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');-->
-    <!--    });-->
-    <!--</script>-->
-
 </body>
 
 </html>
