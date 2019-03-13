@@ -36,7 +36,7 @@
     .form-label {
         display: block;
     }
-    input {
+    input[type="text"], input[type="email] {
         width: 100%;
     }
 </style>
