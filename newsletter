@@ -26,8 +26,10 @@
                     </p>
                 </div>
             </div>
-            <div>     
-                <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
+            <div class="row">
+                <div class="col-md-12">    
+                    <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />  
+                </div>
             </div>
         </form>
     </div>
