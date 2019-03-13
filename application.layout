@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:image" content="{{meta_image}}">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{meta_keywords}}">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@shopstc" />
+    <meta name="twitter:title" content="{{meta_title}}" />
+    <meta name="twitter:description" content="{{meta_description}}" />
+    <meta name="twitter:image" content="{{meta_image}}" />
+    
+    <title>{{meta_title}}</title>
+    <link rel="shortcut icon" href="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/undefined/core_favicon.png" type="image/x-icon" />
+   
+    <!--CSS-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link href="//codecloud.cdn.speedyrails.net/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/flexslider.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="/scaffold.css" rel="stylesheet">
+    <link href="/application.css" rel="stylesheet">
+    
+    <!--Javascript-->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/601617fe9ab691b1b62a66ac3ca3e8b7/jquery.cookie.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
+    <script src="../site.js" type="text/javascript"></script>
+    <script src="../application.js" type="text/javascript"></script>
+    <script src="../helpers.js" type="text/javascript"></script>
+    
+    <!--MallMaverick SDK-->
+    <script src="//preview-mallmaverick.codecloudapp.com/mallmaverick_v4.js"></script>
+    <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js"></script>
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       
+        ga('create', 'UA-50587834-2', 'auto');
+        ga('send', 'pageview');
+        var mall_name = "Core Shopping Centre"
+   </script>
+   <script>
+        /**
+        * Function that tracks a click on an outbound link in Analytics.
+        * This function takes a valid URL string as an argument, and uses that URL string
+        * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+        * using 'navigator.sendBeacon' in browser that support it.
+        */
+        var trackOutboundLink = function(url) {
+            ga('send', 'event', 'outbound', 'click', url, {
+                'transport': 'beacon'
+            });
+        }
+    </script>
+
+    <script>
+        setEndPoint('//core.mallmaverick.com/api/v4/core/all.json');
+        setSocialEndPoint('//core.mallmaverick.com/api/v3/core/social.json')
+    </script>
+</head>
+
+<body class="">
+    <div class="mobile_menu_container">
+        <div class="opened_mobile_menu">
+            <h3>
+                MENU
+                <span id="close_menu" class="pull-right"><img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166976000/close_menu.png"  alt="close"></span>        
+            </h3>
+            <ul>
+                <li>
+                    <a href="#" class="submenu_expander open">
+                        STORES
+                        <img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: none;" alt="open">
+						<img class="menu_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: inline;" alt="close">
+                    </a>
+                    <ul class="sub_menu">
+						<li><a href="/stores">Directory</a></li>
+							<li><a href="/restaurants">Restaurants</a></li>
+						<li><a href="/map">Centre Map</a></li>
+					</ul>
+                        
+                </li>
+                <li>
+                    <a href="#"  class="submenu_expander">
+                        WHAT'S HAPPENING
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/promotions">Promotions</a></li>
+						<li><a href="/events">Events</a></li>
+					
+						<li><a href="/contests">Contests</a></li>
+							<li><a href="/pages/core-act-green-initiatives">ACT Green Initiatives</a></li>
+						
+					</ul>
+                </li>
+                <li>
+                    <a href="#"  class="submenu_expander">
+                        CORE BLOG
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/blog">Blog</a></li>
+						
+					</ul>
+					
+                </li>
+                <li>
+                    <a href="#"  class="submenu_expander">
+                        GUEST SERVICES
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/community">Community</a></li>
+						<li><a href="/accessibility">Accessibility</a></li>
+							<li><a href="/services">Services Offered</a></li>
+					</ul>
+                </li>
+                <li>
+                    <a href="#" class="submenu_expander">
+                        PLAN YOUR VISIT
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+						<li><a href="/parking">Parking</a></li>
+						<li><a href="/tourist_info">Tourist Info</a></li>
+						
+					</ul>
+                </li>
+                <li>
+                    <a href="#" class="submenu_expander">
+                        CONTACT US
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461166990000/open_submenu.png" style="display: inline;" alt="open">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1461179572000/close_submenu.png" style="display: none;" alt="close">
+                    </a>
+                    <ul class="sub_menu hidden_now">
+                    	<li><a href="/hours">Centre Hours</a></li>
+						<li><a href="/contact_us">Contact Us</a></li>
+						<li><a href="/leasing">Leasing</a></li>
+						<li><a href="/security">Security</a></li>
+					</ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="fixed_header">
+        <section class="content_container main_container position_relative">
+            <div class="row header mobile_margin">
+                <div class="col-md-4 col-sm-4 col-xs-12 futura">
+                    <div id="google_translate_element"></div>
+                    <script type="text/javascript">
+                        function googleTranslateElementInit() {
+                          new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,zh-CN,zh-TW,es,tl', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-50587834-2'}, 'google_translate_element');
+                        }
+                        /*!
+                         * Capture Analytics for Google Translate
+                         * As of 2016, the Google Translate toolbar still only works with the old-style analytics (ga.js)
+                         * The code below mocks the old analytics object, captures the events and passes them to the new Universal Analytics (analytics.js)
+                         *
+                         * Source: http://webmasters.stackexchange.com/a/101787/18749
+                         * Copyright (c) Simon East 2016, for yump.com.au
+                         * Free to use under MIT licence <https://opensource.org/licenses/MIT>
+                         */
+                        window._gaq = {}; window._gat = {};
+                        window._gat._getTracker = window._gat._getTrackerByName = function(){ return {
+                          _trackEvent: function(eventCategory, eventAction, eventLabel) {
+                            // [0] will send the event to the first analytics ID on the page (in case you have multiple)
+                            if (window.ga && ga.getAll()[0]) {
+                              ga.getAll()[0].send('event', eventCategory, eventAction, eventLabel);
+                              window.console && console.log('Translation event sent to Google Analytics:', eventCategory, eventAction, eventLabel);
+                            } else {
+                              window.console && console.warn('Could not locate Google Analytics when attempting to log translation events.')
+                            }
+                          }
+                        }}
+                    </script>
+                    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                    
+                    <p class="hours_home hidden_phone"><span class="hours_dot"></span> 
+                        Today's Hours:
+                        <span id="home_hours_container">
+                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                <span class="hours_today">{%raw%}{{day}}{%endraw%}</span><br />
+                                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
+                            </script>
+                        </span>
+                    </p>
+                    <a href="/hours" class="holiday_hours_home soft_hidden_phone">SEE MORE HOURS</a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 show_phone"></div>
+                <div class="col-md-4 col-sm-4 col-xs-4 padding_0 text-center">
+                    <a href="/">
+                        <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1488391599000/CORE_STH_Logo_FYD_K.jpg" class="main_logo " alt="main_logo">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4 text-right position_relative">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1460488452000/icon_menu.png" class="open_menu" alt="menu open">
+                </div>
+                <div class="col-xs-12 show_phone home_hours_phone">
+                    <p class="hours_home futura"><span class="hours_dot"></span> Today's Hours: 
+                        <span id="home_hours_container3">
+                            <script id="home_hours_template3" type="x-tmpl-mustache/text">
+                                <span class="hours_today">{%raw%}{{day}}{%endraw%}</span><br />
+                                <span class="hours_today">{%raw%}{{h}}{%endraw%}</span>
+                            </script>
+                        </span>
+                    </p>
+                    <a class="holiday_hours_home futura" href="/hours">SEE MORE HOURS</a>
+                </div>
+            </div>
+            <div class="hedaer_divider"></div>
+        </section>
+    </div>
+    <section class="yield">
+        {{yield}}
+    </section>
+    
+    <section class="content_container main_container">
+        <div class="newsletter_container text-center">
+            <h3 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h3>
+            <p class="newsletter_desc"><span>•</span> Breaking Fashion News<br class="show_phone" /> <span>•</span> Style Tips & Advice  <br class="show_phone" /><span>•</span> Exclusive Events <span>•</span></p>
+            <a href="/newsletter" class="newsletter_btn animated_btn">JOIN US</a>
+        </div>
+        <!--<div class="trim_screen">-->
+        <!--    <a id="track_link" href="https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/" target="_blank">-->
+        <!--        <img class="center-block bc_banner" src="//codecloud.cdn.speedyrails.net/sites/59b936416e6f64562d010000/image/jpeg/1510252672000/Rohingya_en.jpg" alt=""/>-->
+        <!--    </a>-->
+        <!--</div>-->
+        <div class="site_map">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="">
+                        <h3 class="site_map_heading">SOCIAL</h3>
+                        <p class="site_map_desc">
+                            Follow us on social media for <br />activities and news
+                        </p>
+                        <div class="social_icons">
+                            <a href="//www.facebook.com/COREshopping/" target="_blank">
+                                <span id="social_fb"></span>
+                                <p>Core Facebook</p>
+                            </a>
+                            <a href="//twitter.com/COREshopping" target="_blank">
+                                <span id="social_twitter"></span>
+                                <p>Core Twitter</p>
+                            </a>
+                            <a href="//www.instagram.com/coreshopping/" target="_blank">
+                                <span id="social_insta"></span>
+                                <p>Core Instagram</p>
+                            </a>
+                            <a href="/newsletter">
+                                <span id="social_newsletter"></span>
+                                <p>Core Newsletter</p>
+                            </a>
+                            <a href="#" class="show_snapchat">
+                                <span id="social_snapchat"></span>
+                                <p>Core Snapchat</p>
+                            </a>
+                            <div class="clearfix"></div>
+                            <br class="hidden_phone" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 left_right_border">
+                    <h3 class="site_map_heading">SITE MAP</h3>
+                    <div class="row footer_site_map">
+                        <div class="col-md-6 col-xs-6">
+                            <ul>
+                                <li><a href="/stores">Directory</a></li>
+                                <li><a href="/map">Centre Map</a></li>
+                                <!--<li class="news_link"><a href="/news">The Latest</a></li>-->
+                                <li><a href="/promotions">Promotions</a></li>
+                                <li><a href="/events">Events</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <ul>
+                                <li><a href="/accessibility">Accessibility</a></li>
+                                <li><a href="/hours">Centre Hours</a></li>
+                                <li><a href="/contact_us">Contact Us</a></li>
+                                <li><a href="/jobs">Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="site_map_heading">©<span id="current_year"></span> - The CORE Shopping Centre</h3>
+                    <p class="rights_reserved">
+                        <a href="//www.google.com/maps/place/CORE+Shopping+Centre/@51.0462426,-114.0730665,17z/data=!3m1!4b1!4m5!3m4!1s0x53716ffccf086237:0xb7ce1d6a7569e65c!8m2!3d51.0462392!4d-114.0708778" target="_blank">
+                            Dome Tower<br>
+333 – 7th Avenue SW <br>Suite 900
+Calgary, Alberta <br>T2P 2Z1
+                        </a>
+                        <br />
+                        Administration: <a href="tel:403-441-4901">(403) 441-4901</a><br />
+                        <a href="http://www.cushmanwakefield.ca/en/" target="_blank">
+                            <!--<img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1464722874000/Picture1.png" class="vic_logo" alt="">-->
+                            <img src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/png/1509381758000/CW Logos-_CW_Colorlogo.png" class="" alt="Cushman and Wakefield Logo" style="width:140px;padding-top: 10px;">
+                        </a>
+                    </p>
+                    <p class="rights_reserved">
+                        Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<script>-->
+    <!--    $("#track_link").click( function() {-->
+    <!--        trackOutboundLink('https://secure.humanitariancoalition.ca/index.php?lang=en&source_form=20vic/');-->
+    <!--    });-->
+    <!--</script>-->
+
+</body>
+
+</html>
