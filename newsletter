@@ -14,7 +14,7 @@
                     <input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />
                 </div>
             <!--<br />-->
-                <div class="col-md-6t">
+                <div class="col-md-6">
                     <label for="fieldEmail_newsletter">Email *</label> 
                     <!--<br/>-->
                     <input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykddht-ykddht" type="email" required />
