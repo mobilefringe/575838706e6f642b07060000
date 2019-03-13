@@ -36,7 +36,7 @@
     .form-label {
         display: block;
     }
-    input[type="text"], input[type="email] {
+    #cm-name, #fieldEmail_newsletter {
         width: 100%;
     }
 </style>
