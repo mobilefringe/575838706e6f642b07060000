@@ -28,7 +28,7 @@
                                     <span class="promo_dates">{{published_on}}</span>
                                 </p>
                                 <div class="promo_list_desc">{{description_short}}</div>
-                                <a class="read_more" href="/{{slug}}">Read Post</a>
+                                <a class="read_more" href="/{{slug}}">View Post</a>
                             </div>
                         </div>
                     </script>
