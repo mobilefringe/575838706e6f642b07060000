@@ -1224,9 +1224,8 @@ h4{
     border-right: 1px solid #424242;
 }
 
-#promos_details_container a {
-    color: red;
-}
+#promos_details_container a:hover {
+    color: #5F574B;
 
 .read_more{
     font-weight:lighter;
