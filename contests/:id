@@ -67,6 +67,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contest_details = getContestBySlug(slug);
+            console.log("contest_details", contest_details)
             renderContest("#contest_container", '#contest_template', contest_details)
 
             show_content();
