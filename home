@@ -27,7 +27,7 @@
 <!--</div>-->
 
 <div class="text-center">
-    <div id="home_banner">
+    <div id="hero_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
             {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
                 <div class="hero_banner" style="background-image: url({{image_url}})">
@@ -117,7 +117,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
-            renderBanner('#banner_template','#home_banner',banners);
+            renderBanner('#banner_template','#hero_banner',banners);
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
