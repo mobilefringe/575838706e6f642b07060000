@@ -117,6 +117,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            var banners = getBanners();
             renderBanner('#banner_template','#hero_banner',banners);
             loadSocialFeeds(render_social)
             renderFeatureItems();
