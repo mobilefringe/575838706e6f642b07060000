@@ -26,32 +26,32 @@
     
 <!--</div>-->
 
-<div>
+<!--<div>-->
     <!-- UNCOMMENT FOR DYMANIC CONTENT -->
-    <ul class="slides" id="hero_banner">
-        <script id="banner_template" type="x-tmpl-mustache/text">
-            <li class="position_relative">
-                {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
-                    <div class="hero_banner  text-center" style="background-image: url({{image_url}})">
-                        
-                    </div>
-                </a>
-            </li>
-        </script>
-    </ul>
-</div>
-
-<!--<div class="text-center">-->
-<!--    <div id="hero_banner">-->
+<!--    <ul class="slides" id="hero_banner">-->
 <!--        <script id="banner_template" type="x-tmpl-mustache/text">-->
-<!--            {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}-->
-<!--                <div class="hero_banner" style="background-image: url({{image_url}})">-->
-                    
-<!--                </div>-->
-<!--            </a>-->
+<!--            <li class="position_relative">-->
+<!--                {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}-->
+<!--                    <div class="hero_banner  text-center" style="background-image: url({{image_url}})">-->
+                        
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </li>-->
 <!--        </script>-->
-<!--    </div>-->
+<!--    </ul>-->
 <!--</div>-->
+
+<div class="text-center">
+    <div id="hero_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            {{#url}}<a href="{{url}}" {{css}} onclick="{{noLink}}">{{/url}}
+                <div class="hero_banner" style="background-image: url({{image_url}})">
+                    
+                </div>
+            </a>
+        </script>
+    </div>
+</div>
 
 <div class="content_container main_container">
     <div class="feature_items_box mobile_padding">
