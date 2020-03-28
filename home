@@ -119,7 +119,7 @@
         function renderAll(){
             var banners = getBanners();
             var first_banner = banners[0];
-            renderBanner('#banner_template','#hero_banner',banners);
+            renderBanner('#banner_template','#hero_banner',first_banner);
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
