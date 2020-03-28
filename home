@@ -118,6 +118,7 @@
         init(e);
         function renderAll(){
             var banners = getBanners();
+            var first_banner = banners[0];
             renderBanner('#banner_template','#hero_banner',banners);
             loadSocialFeeds(render_social)
             renderFeatureItems();
