@@ -133,7 +133,7 @@
             var firstOne = banners.filter(firstPosition)
 
             // renderBanner('#banner_template','#home_banner',banners); if want multiple 
-            renderBanner('#banner_template','#home_banner',firstOne);
+            renderBanner('#banner_template','#hero_banner',firstOne);
             
             loadSocialFeeds(render_social)
             renderFeatureItems();
