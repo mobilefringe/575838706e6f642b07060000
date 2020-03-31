@@ -118,9 +118,23 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            // var banners = getBanners();
+            // var first_banner = banners[0];
+            // renderBanner('#banner_template','#hero_banner',banners);
+            
             var banners = getBanners();
-            var first_banner = banners[0];
-            renderBanner('#banner_template','#hero_banner',banners);
+            // var first_banner = banners[0]; doesn't work
+            
+            // filter return banners position?
+            function firstPosition(banners) {
+              return banners.position == 1;
+            }
+            
+            var firstOne = banners.filter(firstPosition)
+
+            // renderBanner('#banner_template','#home_banner',banners); if want multiple 
+            renderBanner('#banner_template','#home_banner',firstOne);
+            
             loadSocialFeeds(render_social)
             renderFeatureItems();
             var today_hours = getTodaysHours();
