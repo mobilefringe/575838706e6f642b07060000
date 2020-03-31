@@ -121,7 +121,6 @@
             // var banners = getBanners();
             // renderBanner('#banner_template','#hero_banner',banners);
             
-            
             // filter return banners position 1
             var banners = getBanners();
             function firstPosition(banners) {
