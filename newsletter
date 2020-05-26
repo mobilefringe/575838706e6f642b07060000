@@ -33,7 +33,7 @@
                 </label>
             </p>
             <div>     
-                <input class="newsletter_btn animated_btn" name="commit" type="submit" value="SUBMIT" style="width:150px;" />            
+                <input class="newsletter_btn animated_btn" name="commit" type="submit" style="width:150px;" />            
             </div>
         </form>
     </div>
