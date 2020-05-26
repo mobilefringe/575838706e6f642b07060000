@@ -7,35 +7,41 @@
     <p>Be the first to know! Sign up to receive the latest CORE Shopping Centre updates including contests, events and promotions.</p>
     <div class="newsletter_page">
         <!--<form id="newsletter_form" action="//mobilefringe.createsend.com/t/d/s/ykddht/" method="post">-->
-        <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1A300D5970BD0F5E4FE4BFBC81336B60FE038C8CD445800D10757554D0EFCEFC055D6581D4AB4F0711B74F5A038844ACF7">
-            <div class="floater-left">
-                <label for="cm-name">Name *</label> 
-                <br/>
+        <!--<form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1A300D5970BD0F5E4FE4BFBC81336B60FE038C8CD445800D10757554D0EFCEFC055D6581D4AB4F0711B74F5A038844ACF7">-->
+        <!--    <div class="floater-left">-->
+        <!--        <label for="cm-name">Name *</label> -->
+        <!--        <br/>-->
                 <!--<input  type="text" required  title="fullname newsletter" class="newletter-hidden" id="cm-name" name="cm-name" />-->
-                <input type="text" required class="newletter-hidden" aria-label="Name" id="fieldName" maxlength="200" name="cm-name">
-            </div>
-            <br />
-            <div class="floater-left">
-                <label for="fieldEmail_newsletter">Email *</label> 
-                <br/>
+        <!--        <input type="text" required class="newletter-hidden" aria-label="Name" id="fieldName" maxlength="200" name="cm-name">-->
+        <!--    </div>-->
+        <!--    <br />-->
+        <!--    <div class="floater-left">-->
+        <!--        <label for="fieldEmail_newsletter">Email *</label> -->
+        <!--        <br/>-->
                 <!--<input class="email-newsletter"  id="fieldEmail_newsletter" name="cm-ykddht-ykddht" type="email" required />-->
-                <input autocomplete="Email" aria-label="Email" class="email-newsletter" id="fieldEmail" maxlength="200" name="cm-ykddht-ykddht" required="" type="email">
-            </div>
-            <div style="clear:both;"></div>
+        <!--        <input autocomplete="Email" aria-label="Email" class="email-newsletter" id="fieldEmail" maxlength="200" name="cm-ykddht-ykddht" required="" type="email">-->
+        <!--    </div>-->
+        <!--    <div style="clear:both;"></div>-->
             
             
-            <br />
+        <!--    <br />-->
             
-            <p style="font-size: 13px;">
+        <!--    <p style="font-size: 13px;">-->
                 <!--<input type="checkbox" id ="agree_newsletter_page" style="margin-right:3px;" required>-->
-                <input aria-required="" id="cm-privacy-consent" style="margin-right:3px;" name="cm-privacy-consent" required="" type="checkbox">
-                <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The CORE Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="/pages/core-privacy">Privacy Terms &amp; Conditions</a>.
-                </label>
-            </p>
-            <div>     
-                <input class="newsletter_btn animated_btn" name="commit" type="submit" style="width:150px;" />            
-            </div>
-        </form>
+        <!--        <input aria-required="" id="cm-privacy-consent" style="margin-right:3px;" name="cm-privacy-consent" required="" type="checkbox">-->
+        <!--        <label for="agree_newsletter_page" style="display: inline; font-weight: normal;">I agree to receive newsletters from The CORE Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the <a style="color:#581d37" target="_blank" href="/pages/core-privacy">Privacy Terms &amp; Conditions</a>.-->
+        <!--        </label>-->
+        <!--    </p>-->
+        <!--    <div>     -->
+        <!--        <input class="newsletter_btn animated_btn" name="commit" type="submit" style="width:150px;" />            -->
+        <!--    </div>-->
+        <!--</form>-->
+        
+        
+        <div><h1 color="#000"></h1><form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1A300D5970BD0F5E4FE4BFBC81336B60FE038C8CD445800D10757554D0EFCEFC055D6581D4AB4F0711B74F5A038844ACF7"><div><div><label>Name </label><input aria-label="Name" id="fieldName" maxlength="200" name="cm-name"></div><div><label>Email </label><input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-ykddht-ykddht" required="" type="email"></div><div><div><div><input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox"><label for="cm-privacy-consent">I agree to receive newsletters from The CORE Shopping Centre via electronic messaging; and I acknowledge that I have read and understand the Privacy Terms &amp; Conditions.</label></div><input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true"></div></div></div><button type="submit">Subscribe</button></form></div>
+        
+        
+        
     </div>
 </div>
 <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>
