@@ -49,7 +49,7 @@
             </div>
             
             <div class="feature_item">
-                <a class="show_phone" href="//twitter.com/CORESHOPPING" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535257000/social_twitter.jpg"  alt=""></a>
+                <a class="show_phone" href="//twitter.com/CORESHOPPING" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/jpeg/1591046427000/coretwitter.jpg"  alt=""></a>
                 <div class="social_box hidden_phone text-center" d="social_twitter">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434698000/tweet.png" class="" alt="tweet">
                     <div>
@@ -63,7 +63,7 @@
                 <div id="feature_2" class="position_relative"></div>
                 <div>    
                     <a href="//www.instagram.com/coreshopping/" target="_blank" class="block position_relative">
-                        <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535742000/social_instagram.jpg" class="show_phone" alt="">
+                        <img src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/jpeg/1591046735000/coreig.jpg" class="show_phone" alt="">
                         <img class="hidden_phone" src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/png/1591039770000/InstagramGray.png"  alt="map">
                         <span class="center_me hidden_phone">Follow us on Instagram</span>
                     </a>
@@ -73,7 +73,7 @@
             <div class="feature_item">
                 <div id="feature_3" class="position_relative"></div>
                 <a href="//www.facebook.com/COREshopping/" target="_blank" class="show_phone">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466535551000/social_facebook-1.jpg" alt="fb">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/jpeg/1591046413000/corefb.jpg" alt="fb">
                 </a>
                 <div class="hidden_phone social_box text-center" id="social_fb">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
@@ -89,7 +89,7 @@
             <div class="feature_item">
                 <div>
                     <a href="/hours" class="show_phone">
-                        <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/jpeg/1466536432000/img_hours.jpg" class="" alt="hours">
+                        <img src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/jpeg/1591046455000/corehr.jpg" class="" alt="hours">
                     </a>
                     <a href="/hours" class=" hidden_phone social_box text-center hours_box" id="hours_box">
                         <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463772189000/hours.png" class="" alt="hours">
