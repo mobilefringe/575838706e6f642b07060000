@@ -52,7 +52,7 @@
                 <a class="show_phone" href="//twitter.com/CORESHOPPING" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/59b6be456e6f64012c800000/image/jpeg/1591046427000/coretwitter.jpg"  alt=""></a>
                 <div class="social_box hidden_phone text-center" d="social_twitter">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434698000/tweet.png" class="" alt="tweet">
-                    <div>
+                    <div class="home_feature_hours">
                         <a href="#" id="latest_tweet_link" target="_blank"><p id="latest_tweet" class="latest_post"></p></a>
                         <p>
                             <a class="social_link_blank" href="//twitter.com/COREshopping" target="_blank">@CORESHOPPING</a> <br />
@@ -78,7 +78,7 @@
                 <div class="hidden_phone social_box text-center" id="social_fb">
                     <img src="//codecloud.cdn.speedyrails.net/sites/57fe53676e6f64544e020000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
-                    <p> 
+                    <p class="home_feature_hours"> 
                         <a  class="social_link_blank" href="//www.facebook.com/COREshopping/" target="_blank">Facebook/ COREshoppingcentre</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
